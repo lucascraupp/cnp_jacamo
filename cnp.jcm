@@ -10,41 +10,41 @@ mas cnp {
     // Fornecedores (participants)
     agent oficina1 : participant.asl {
         beliefs: services_offered(funilaria)
-        strategy(fixed) 
-        base_price(500) 
-        capacity(3)
+                 strategy(fixed)
+                 base_price(500)
+                 capacity(3)
     }
     agent oficina2 : participant.asl {
-        beliefs: services_offered(funilaria) 
-        strategy(load) 
-        base_price(400) 
-        capacity(2)
+        beliefs: services_offered(funilaria)
+                 strategy(load)
+                 base_price(400)
+                 capacity(2)
     }
 
     agent oficina3 : participant.asl {
-        beliefs: services_offered(pintura) 
-        strategy(random) 
-        base_price(300) 
-        capacity(20)
+        beliefs: services_offered(pintura)
+                 strategy(random)
+                 base_price(300)
+                 capacity(20)
     }
     agent oficina4 : participant.asl {
-        beliefs: services_offered(pintura) 
-        strategy(fixed) 
-        base_price(250) 
-        capacity(3)
+        beliefs: services_offered(pintura)
+                 strategy(fixed)
+                 base_price(250)
+                 capacity(3)
     }
 
     agent oficina5 : participant.asl {
-        beliefs: services_offered(troca_oleo) 
-        strategy(load) 
-        base_price(100) 
-        capacity(10)
+        beliefs: services_offered(troca_oleo)
+                 strategy(load)
+                 base_price(100)
+                 capacity(10)
     }
     agent oficina6 : participant.asl {
-        beliefs: services_offered(troca_oleo) 
-        strategy(random) 
-        base_price(120) 
-        capacity(5)
+        beliefs: services_offered(troca_oleo)
+                 strategy(random)
+                 base_price(120)
+                 capacity(5)
     }
 
 }
