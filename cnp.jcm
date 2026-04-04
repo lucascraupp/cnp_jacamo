@@ -1,50 +1,895 @@
 mas cnp {
-    // Clientes (initiators)
     agent client1 : initiator.asl {
-        beliefs: services_needed([funilaria, pintura])
+        beliefs: services_needed([balanceamento, troca_oleo, pintura])
     }
     agent client2 : initiator.asl {
+        beliefs: services_needed([pintura, alinhamento, troca_oleo, balanceamento, funilaria])
+    }
+    agent client3 : initiator.asl {
+        beliefs: services_needed([funilaria, pintura, troca_oleo, alinhamento, balanceamento])
+    }
+    agent client4 : initiator.asl {
+        beliefs: services_needed([pintura, balanceamento, troca_oleo, alinhamento, funilaria])
+    }
+    agent client5 : initiator.asl {
+        beliefs: services_needed([balanceamento, alinhamento, pintura, funilaria])
+    }
+    agent client6 : initiator.asl {
+        beliefs: services_needed([pintura, funilaria, troca_oleo, alinhamento, balanceamento])
+    }
+    agent client7 : initiator.asl {
+        beliefs: services_needed([troca_oleo, pintura, funilaria])
+    }
+    agent client8 : initiator.asl {
+        beliefs: services_needed([alinhamento, pintura, troca_oleo, balanceamento])
+    }
+    agent client9 : initiator.asl {
+        beliefs: services_needed([funilaria, balanceamento, pintura, alinhamento, troca_oleo])
+    }
+    agent client10 : initiator.asl {
+        beliefs: services_needed([troca_oleo, funilaria, pintura, balanceamento, alinhamento])
+    }
+    agent client11 : initiator.asl {
+        beliefs: services_needed([pintura, troca_oleo, balanceamento, funilaria, alinhamento])
+    }
+    agent client12 : initiator.asl {
+        beliefs: services_needed([balanceamento, troca_oleo, pintura, funilaria])
+    }
+    agent client13 : initiator.asl {
+        beliefs: services_needed([pintura, balanceamento])
+    }
+    agent client14 : initiator.asl {
+        beliefs: services_needed([alinhamento, funilaria, pintura, troca_oleo])
+    }
+    agent client15 : initiator.asl {
+        beliefs: services_needed([alinhamento, funilaria, balanceamento, troca_oleo, pintura])
+    }
+    agent client16 : initiator.asl {
+        beliefs: services_needed([pintura, troca_oleo, alinhamento, balanceamento, funilaria])
+    }
+    agent client17 : initiator.asl {
+        beliefs: services_needed([alinhamento, funilaria, balanceamento, pintura, troca_oleo])
+    }
+    agent client18 : initiator.asl {
+        beliefs: services_needed([alinhamento, funilaria])
+    }
+    agent client19 : initiator.asl {
+        beliefs: services_needed([troca_oleo, funilaria, pintura, alinhamento, balanceamento])
+    }
+    agent client20 : initiator.asl {
+        beliefs: services_needed([troca_oleo, pintura, balanceamento])
+    }
+    agent client21 : initiator.asl {
+        beliefs: services_needed([alinhamento, troca_oleo, pintura, balanceamento, funilaria])
+    }
+    agent client22 : initiator.asl {
+        beliefs: services_needed([troca_oleo, pintura, funilaria, alinhamento, balanceamento])
+    }
+    agent client23 : initiator.asl {
+        beliefs: services_needed([balanceamento, troca_oleo])
+    }
+    agent client24 : initiator.asl {
+        beliefs: services_needed([troca_oleo, funilaria])
+    }
+    agent client25 : initiator.asl {
+        beliefs: services_needed([balanceamento, funilaria, troca_oleo, pintura])
+    }
+    agent client26 : initiator.asl {
+        beliefs: services_needed([alinhamento, funilaria, troca_oleo, balanceamento])
+    }
+    agent client27 : initiator.asl {
+        beliefs: services_needed([alinhamento])
+    }
+    agent client28 : initiator.asl {
+        beliefs: services_needed([troca_oleo, funilaria, balanceamento, pintura, alinhamento])
+    }
+    agent client29 : initiator.asl {
+        beliefs: services_needed([balanceamento, pintura, alinhamento])
+    }
+    agent client30 : initiator.asl {
+        beliefs: services_needed([alinhamento, pintura, funilaria])
+    }
+    agent client31 : initiator.asl {
+        beliefs: services_needed([alinhamento, funilaria, troca_oleo, balanceamento, pintura])
+    }
+    agent client32 : initiator.asl {
+        beliefs: services_needed([funilaria, troca_oleo, balanceamento, alinhamento, pintura])
+    }
+    agent client33 : initiator.asl {
+        beliefs: services_needed([troca_oleo, balanceamento, pintura])
+    }
+    agent client34 : initiator.asl {
+        beliefs: services_needed([pintura, funilaria, balanceamento, alinhamento, troca_oleo])
+    }
+    agent client35 : initiator.asl {
+        beliefs: services_needed([pintura, balanceamento, funilaria, alinhamento, troca_oleo])
+    }
+    agent client36 : initiator.asl {
+        beliefs: services_needed([alinhamento])
+    }
+    agent client37 : initiator.asl {
+        beliefs: services_needed([balanceamento, alinhamento])
+    }
+    agent client38 : initiator.asl {
+        beliefs: services_needed([funilaria, pintura, balanceamento, troca_oleo, alinhamento])
+    }
+    agent client39 : initiator.asl {
+        beliefs: services_needed([alinhamento, troca_oleo, funilaria])
+    }
+    agent client40 : initiator.asl {
+        beliefs: services_needed([alinhamento, balanceamento, funilaria, troca_oleo, pintura])
+    }
+    agent client41 : initiator.asl {
+        beliefs: services_needed([pintura, funilaria, balanceamento])
+    }
+    agent client42 : initiator.asl {
+        beliefs: services_needed([funilaria, balanceamento, troca_oleo])
+    }
+    agent client43 : initiator.asl {
+        beliefs: services_needed([balanceamento, funilaria, troca_oleo, pintura])
+    }
+    agent client44 : initiator.asl {
+        beliefs: services_needed([alinhamento, funilaria, troca_oleo, balanceamento])
+    }
+    agent client45 : initiator.asl {
+        beliefs: services_needed([alinhamento])
+    }
+    agent client46 : initiator.asl {
+        beliefs: services_needed([troca_oleo, pintura, balanceamento, alinhamento, funilaria])
+    }
+    agent client47 : initiator.asl {
+        beliefs: services_needed([troca_oleo, alinhamento, funilaria, balanceamento])
+    }
+    agent client48 : initiator.asl {
+        beliefs: services_needed([pintura, troca_oleo, funilaria, alinhamento])
+    }
+    agent client49 : initiator.asl {
+        beliefs: services_needed([troca_oleo])
+    }
+    agent client50 : initiator.asl {
+        beliefs: services_needed([funilaria, pintura])
+    }
+    agent client51 : initiator.asl {
+        beliefs: services_needed([balanceamento, pintura, alinhamento, troca_oleo, funilaria])
+    }
+    agent client52 : initiator.asl {
+        beliefs: services_needed([balanceamento, alinhamento, funilaria, troca_oleo, pintura])
+    }
+    agent client53 : initiator.asl {
+        beliefs: services_needed([pintura, balanceamento, funilaria, troca_oleo, alinhamento])
+    }
+    agent client54 : initiator.asl {
+        beliefs: services_needed([troca_oleo, balanceamento, funilaria, pintura, alinhamento])
+    }
+    agent client55 : initiator.asl {
+        beliefs: services_needed([troca_oleo, funilaria, pintura, alinhamento, balanceamento])
+    }
+    agent client56 : initiator.asl {
+        beliefs: services_needed([troca_oleo, pintura, balanceamento, funilaria, alinhamento])
+    }
+    agent client57 : initiator.asl {
+        beliefs: services_needed([funilaria])
+    }
+    agent client58 : initiator.asl {
+        beliefs: services_needed([alinhamento, funilaria, pintura, troca_oleo, balanceamento])
+    }
+    agent client59 : initiator.asl {
+        beliefs: services_needed([balanceamento, troca_oleo, alinhamento, funilaria, pintura])
+    }
+    agent client60 : initiator.asl {
+        beliefs: services_needed([funilaria, troca_oleo, pintura, balanceamento, alinhamento])
+    }
+    agent client61 : initiator.asl {
+        beliefs: services_needed([balanceamento, alinhamento, pintura, funilaria])
+    }
+    agent client62 : initiator.asl {
+        beliefs: services_needed([balanceamento, funilaria])
+    }
+    agent client63 : initiator.asl {
+        beliefs: services_needed([balanceamento, alinhamento, troca_oleo, pintura, funilaria])
+    }
+    agent client64 : initiator.asl {
+        beliefs: services_needed([balanceamento, pintura, troca_oleo, funilaria, alinhamento])
+    }
+    agent client65 : initiator.asl {
+        beliefs: services_needed([funilaria, pintura, alinhamento, balanceamento, troca_oleo])
+    }
+    agent client66 : initiator.asl {
+        beliefs: services_needed([alinhamento, pintura, troca_oleo, balanceamento, funilaria])
+    }
+    agent client67 : initiator.asl {
+        beliefs: services_needed([alinhamento, funilaria, pintura, troca_oleo, balanceamento])
+    }
+    agent client68 : initiator.asl {
+        beliefs: services_needed([pintura, funilaria, alinhamento])
+    }
+    agent client69 : initiator.asl {
+        beliefs: services_needed([balanceamento, alinhamento, troca_oleo, funilaria, pintura])
+    }
+    agent client70 : initiator.asl {
+        beliefs: services_needed([balanceamento, pintura, troca_oleo, funilaria, alinhamento])
+    }
+    agent client71 : initiator.asl {
+        beliefs: services_needed([funilaria, pintura])
+    }
+    agent client72 : initiator.asl {
+        beliefs: services_needed([troca_oleo])
+    }
+    agent client73 : initiator.asl {
+        beliefs: services_needed([balanceamento, funilaria, alinhamento, pintura])
+    }
+    agent client74 : initiator.asl {
+        beliefs: services_needed([balanceamento, alinhamento])
+    }
+    agent client75 : initiator.asl {
+        beliefs: services_needed([alinhamento, troca_oleo, funilaria, balanceamento, pintura])
+    }
+    agent client76 : initiator.asl {
+        beliefs: services_needed([pintura, alinhamento, troca_oleo, funilaria, balanceamento])
+    }
+    agent client77 : initiator.asl {
+        beliefs: services_needed([troca_oleo, funilaria, balanceamento, alinhamento, pintura])
+    }
+    agent client78 : initiator.asl {
+        beliefs: services_needed([balanceamento, troca_oleo, alinhamento, pintura, funilaria])
+    }
+    agent client79 : initiator.asl {
+        beliefs: services_needed([troca_oleo, balanceamento, pintura])
+    }
+    agent client80 : initiator.asl {
+        beliefs: services_needed([balanceamento, troca_oleo, pintura, alinhamento])
+    }
+    agent client81 : initiator.asl {
+        beliefs: services_needed([funilaria])
+    }
+    agent client82 : initiator.asl {
+        beliefs: services_needed([balanceamento, troca_oleo, funilaria, alinhamento, pintura])
+    }
+    agent client83 : initiator.asl {
+        beliefs: services_needed([balanceamento, alinhamento, pintura, funilaria, troca_oleo])
+    }
+    agent client84 : initiator.asl {
         beliefs: services_needed([troca_oleo, funilaria, pintura])
     }
+    agent client85 : initiator.asl {
+        beliefs: services_needed([balanceamento, pintura, funilaria, alinhamento, troca_oleo])
+    }
+    agent client86 : initiator.asl {
+        beliefs: services_needed([pintura, funilaria, alinhamento, troca_oleo])
+    }
+    agent client87 : initiator.asl {
+        beliefs: services_needed([alinhamento, funilaria, balanceamento, troca_oleo])
+    }
+    agent client88 : initiator.asl {
+        beliefs: services_needed([balanceamento, funilaria, pintura, troca_oleo, alinhamento])
+    }
+    agent client89 : initiator.asl {
+        beliefs: services_needed([balanceamento, funilaria, troca_oleo, alinhamento])
+    }
+    agent client90 : initiator.asl {
+        beliefs: services_needed([alinhamento, troca_oleo, pintura, funilaria, balanceamento])
+    }
+    agent client91 : initiator.asl {
+        beliefs: services_needed([troca_oleo, alinhamento, funilaria, balanceamento, pintura])
+    }
+    agent client92 : initiator.asl {
+        beliefs: services_needed([troca_oleo, balanceamento, funilaria, alinhamento, pintura])
+    }
+    agent client93 : initiator.asl {
+        beliefs: services_needed([pintura, alinhamento, troca_oleo])
+    }
+    agent client94 : initiator.asl {
+        beliefs: services_needed([troca_oleo, balanceamento, alinhamento, funilaria, pintura])
+    }
+    agent client95 : initiator.asl {
+        beliefs: services_needed([balanceamento])
+    }
+    agent client96 : initiator.asl {
+        beliefs: services_needed([pintura, troca_oleo])
+    }
+    agent client97 : initiator.asl {
+        beliefs: services_needed([alinhamento, balanceamento, funilaria, pintura, troca_oleo])
+    }
+    agent client98 : initiator.asl {
+        beliefs: services_needed([troca_oleo, balanceamento, funilaria, alinhamento, pintura])
+    }
+    agent client99 : initiator.asl {
+        beliefs: services_needed([alinhamento])
+    }
+    agent client100 : initiator.asl {
+        beliefs: services_needed([pintura])
+    }
+    agent client101 : initiator.asl {
+        beliefs: services_needed([alinhamento, funilaria, troca_oleo, pintura, balanceamento])
+    }
+    agent client102 : initiator.asl {
+        beliefs: services_needed([troca_oleo, alinhamento, pintura, balanceamento])
+    }
+    agent client103 : initiator.asl {
+        beliefs: services_needed([troca_oleo, balanceamento, alinhamento, funilaria])
+    }
+    agent client104 : initiator.asl {
+        beliefs: services_needed([troca_oleo])
+    }
+    agent client105 : initiator.asl {
+        beliefs: services_needed([pintura, troca_oleo, funilaria, balanceamento, alinhamento])
+    }
+    agent client106 : initiator.asl {
+        beliefs: services_needed([funilaria, pintura, balanceamento, alinhamento, troca_oleo])
+    }
+    agent client107 : initiator.asl {
+        beliefs: services_needed([funilaria, alinhamento, balanceamento, troca_oleo, pintura])
+    }
+    agent client108 : initiator.asl {
+        beliefs: services_needed([balanceamento, troca_oleo, alinhamento, funilaria, pintura])
+    }
+    agent client109 : initiator.asl {
+        beliefs: services_needed([troca_oleo, pintura, funilaria])
+    }
+    agent client110 : initiator.asl {
+        beliefs: services_needed([alinhamento, troca_oleo, pintura, funilaria])
+    }
+    agent client111 : initiator.asl {
+        beliefs: services_needed([balanceamento, troca_oleo, pintura, funilaria, alinhamento])
+    }
+    agent client112 : initiator.asl {
+        beliefs: services_needed([pintura, troca_oleo])
+    }
+    agent client113 : initiator.asl {
+        beliefs: services_needed([troca_oleo, pintura, alinhamento, balanceamento, funilaria])
+    }
+    agent client114 : initiator.asl {
+        beliefs: services_needed([funilaria, balanceamento, pintura, alinhamento, troca_oleo])
+    }
+    agent client115 : initiator.asl {
+        beliefs: services_needed([funilaria, balanceamento, troca_oleo, pintura, alinhamento])
+    }
+    agent client116 : initiator.asl {
+        beliefs: services_needed([troca_oleo, funilaria, pintura, alinhamento, balanceamento])
+    }
+    agent client117 : initiator.asl {
+        beliefs: services_needed([troca_oleo, pintura, balanceamento])
+    }
+    agent client118 : initiator.asl {
+        beliefs: services_needed([alinhamento, funilaria, troca_oleo, balanceamento, pintura])
+    }
+    agent client119 : initiator.asl {
+        beliefs: services_needed([balanceamento, pintura, troca_oleo, alinhamento, funilaria])
+    }
+    agent client120 : initiator.asl {
+        beliefs: services_needed([alinhamento, troca_oleo, balanceamento, pintura, funilaria])
+    }
+    agent client121 : initiator.asl {
+        beliefs: services_needed([balanceamento, funilaria, pintura, alinhamento, troca_oleo])
+    }
+    agent client122 : initiator.asl {
+        beliefs: services_needed([pintura, funilaria, alinhamento, balanceamento, troca_oleo])
+    }
+    agent client123 : initiator.asl {
+        beliefs: services_needed([pintura])
+    }
+    agent client124 : initiator.asl {
+        beliefs: services_needed([pintura, troca_oleo, alinhamento, funilaria, balanceamento])
+    }
+    agent client125 : initiator.asl {
+        beliefs: services_needed([alinhamento, troca_oleo, pintura, funilaria, balanceamento])
+    }
+    agent client126 : initiator.asl {
+        beliefs: services_needed([pintura, alinhamento, troca_oleo, funilaria])
+    }
+    agent client127 : initiator.asl {
+        beliefs: services_needed([troca_oleo, pintura, alinhamento, balanceamento, funilaria])
+    }
+    agent client128 : initiator.asl {
+        beliefs: services_needed([troca_oleo, pintura, balanceamento])
+    }
+    agent client129 : initiator.asl {
+        beliefs: services_needed([troca_oleo, funilaria])
+    }
+    agent client130 : initiator.asl {
+        beliefs: services_needed([alinhamento, funilaria, pintura, troca_oleo])
+    }
+    agent client131 : initiator.asl {
+        beliefs: services_needed([troca_oleo, pintura, balanceamento, alinhamento, funilaria])
+    }
+    agent client132 : initiator.asl {
+        beliefs: services_needed([balanceamento, alinhamento, funilaria, pintura, troca_oleo])
+    }
+    agent client133 : initiator.asl {
+        beliefs: services_needed([troca_oleo, balanceamento])
+    }
+    agent client134 : initiator.asl {
+        beliefs: services_needed([balanceamento, pintura, troca_oleo, funilaria, alinhamento])
+    }
+    agent client135 : initiator.asl {
+        beliefs: services_needed([alinhamento, funilaria, pintura, troca_oleo, balanceamento])
+    }
+    agent client136 : initiator.asl {
+        beliefs: services_needed([troca_oleo, pintura, alinhamento, funilaria, balanceamento])
+    }
+    agent client137 : initiator.asl {
+        beliefs: services_needed([balanceamento, funilaria, alinhamento, troca_oleo, pintura])
+    }
+    agent client138 : initiator.asl {
+        beliefs: services_needed([funilaria, pintura, alinhamento, troca_oleo, balanceamento])
+    }
+    agent client139 : initiator.asl {
+        beliefs: services_needed([alinhamento])
+    }
+    agent client140 : initiator.asl {
+        beliefs: services_needed([alinhamento, pintura, funilaria, troca_oleo, balanceamento])
+    }
+    agent client141 : initiator.asl {
+        beliefs: services_needed([pintura, funilaria])
+    }
+    agent client142 : initiator.asl {
+        beliefs: services_needed([alinhamento, funilaria, troca_oleo, balanceamento, pintura])
+    }
+    agent client143 : initiator.asl {
+        beliefs: services_needed([balanceamento, pintura, funilaria, alinhamento, troca_oleo])
+    }
+    agent client144 : initiator.asl {
+        beliefs: services_needed([funilaria, troca_oleo, alinhamento])
+    }
+    agent client145 : initiator.asl {
+        beliefs: services_needed([alinhamento, funilaria, troca_oleo, pintura])
+    }
+    agent client146 : initiator.asl {
+        beliefs: services_needed([balanceamento, alinhamento])
+    }
+    agent client147 : initiator.asl {
+        beliefs: services_needed([balanceamento, pintura, alinhamento, troca_oleo, funilaria])
+    }
+    agent client148 : initiator.asl {
+        beliefs: services_needed([alinhamento, pintura, troca_oleo, funilaria, balanceamento])
+    }
+    agent client149 : initiator.asl {
+        beliefs: services_needed([funilaria, alinhamento, troca_oleo, pintura, balanceamento])
+    }
+    agent client150 : initiator.asl {
+        beliefs: services_needed([balanceamento, alinhamento, pintura, troca_oleo, funilaria])
+    }
+    agent client151 : initiator.asl {
+        beliefs: services_needed([troca_oleo, funilaria, pintura, balanceamento, alinhamento])
+    }
+    agent client152 : initiator.asl {
+        beliefs: services_needed([alinhamento, troca_oleo, balanceamento, funilaria, pintura])
+    }
+    agent client153 : initiator.asl {
+        beliefs: services_needed([funilaria, balanceamento])
+    }
+    agent client154 : initiator.asl {
+        beliefs: services_needed([troca_oleo])
+    }
+    agent client155 : initiator.asl {
+        beliefs: services_needed([balanceamento, pintura, troca_oleo, alinhamento, funilaria])
+    }
+    agent client156 : initiator.asl {
+        beliefs: services_needed([funilaria, pintura, alinhamento, troca_oleo])
+    }
+    agent client157 : initiator.asl {
+        beliefs: services_needed([funilaria, alinhamento, troca_oleo, pintura, balanceamento])
+    }
+    agent client158 : initiator.asl {
+        beliefs: services_needed([funilaria, troca_oleo])
+    }
+    agent client159 : initiator.asl {
+        beliefs: services_needed([pintura, funilaria, balanceamento])
+    }
+    agent client160 : initiator.asl {
+        beliefs: services_needed([pintura, funilaria])
+    }
+    agent client161 : initiator.asl {
+        beliefs: services_needed([troca_oleo, balanceamento, funilaria])
+    }
+    agent client162 : initiator.asl {
+        beliefs: services_needed([pintura, balanceamento, funilaria])
+    }
+    agent client163 : initiator.asl {
+        beliefs: services_needed([funilaria, pintura, balanceamento, troca_oleo, alinhamento])
+    }
+    agent client164 : initiator.asl {
+        beliefs: services_needed([funilaria, balanceamento, troca_oleo, alinhamento, pintura])
+    }
+    agent client165 : initiator.asl {
+        beliefs: services_needed([funilaria, pintura, troca_oleo, alinhamento, balanceamento])
+    }
+    agent client166 : initiator.asl {
+        beliefs: services_needed([pintura, funilaria])
+    }
+    agent client167 : initiator.asl {
+        beliefs: services_needed([troca_oleo, balanceamento, alinhamento, pintura, funilaria])
+    }
+    agent client168 : initiator.asl {
+        beliefs: services_needed([balanceamento, troca_oleo, alinhamento])
+    }
+    agent client169 : initiator.asl {
+        beliefs: services_needed([troca_oleo])
+    }
+    agent client170 : initiator.asl {
+        beliefs: services_needed([alinhamento, troca_oleo, funilaria, balanceamento])
+    }
+    agent client171 : initiator.asl {
+        beliefs: services_needed([alinhamento, troca_oleo])
+    }
+    agent client172 : initiator.asl {
+        beliefs: services_needed([alinhamento])
+    }
+    agent client173 : initiator.asl {
+        beliefs: services_needed([troca_oleo, pintura, alinhamento, balanceamento, funilaria])
+    }
+    agent client174 : initiator.asl {
+        beliefs: services_needed([pintura, balanceamento, troca_oleo, alinhamento])
+    }
+    agent client175 : initiator.asl {
+        beliefs: services_needed([troca_oleo, funilaria, alinhamento, balanceamento, pintura])
+    }
+    agent client176 : initiator.asl {
+        beliefs: services_needed([troca_oleo, balanceamento, pintura, funilaria, alinhamento])
+    }
+    agent client177 : initiator.asl {
+        beliefs: services_needed([alinhamento, pintura, funilaria, balanceamento])
+    }
+    agent client178 : initiator.asl {
+        beliefs: services_needed([balanceamento, pintura, funilaria, alinhamento, troca_oleo])
+    }
+    agent client179 : initiator.asl {
+        beliefs: services_needed([balanceamento, troca_oleo, pintura, funilaria, alinhamento])
+    }
+    agent client180 : initiator.asl {
+        beliefs: services_needed([troca_oleo, balanceamento, pintura, funilaria, alinhamento])
+    }
+    agent client181 : initiator.asl {
+        beliefs: services_needed([pintura, alinhamento, funilaria, balanceamento, troca_oleo])
+    }
+    agent client182 : initiator.asl {
+        beliefs: services_needed([funilaria, alinhamento, troca_oleo, pintura, balanceamento])
+    }
+    agent client183 : initiator.asl {
+        beliefs: services_needed([pintura, alinhamento, funilaria, balanceamento, troca_oleo])
+    }
+    agent client184 : initiator.asl {
+        beliefs: services_needed([balanceamento, funilaria, troca_oleo, pintura])
+    }
+    agent client185 : initiator.asl {
+        beliefs: services_needed([funilaria, pintura, troca_oleo, alinhamento, balanceamento])
+    }
+    agent client186 : initiator.asl {
+        beliefs: services_needed([pintura, alinhamento, funilaria])
+    }
+    agent client187 : initiator.asl {
+        beliefs: services_needed([balanceamento, pintura, funilaria, troca_oleo, alinhamento])
+    }
+    agent client188 : initiator.asl {
+        beliefs: services_needed([funilaria, pintura, alinhamento])
+    }
+    agent client189 : initiator.asl {
+        beliefs: services_needed([troca_oleo, funilaria])
+    }
+    agent client190 : initiator.asl {
+        beliefs: services_needed([troca_oleo, alinhamento, funilaria, pintura, balanceamento])
+    }
+    agent client191 : initiator.asl {
+        beliefs: services_needed([troca_oleo, pintura, alinhamento, funilaria, balanceamento])
+    }
+    agent client192 : initiator.asl {
+        beliefs: services_needed([alinhamento, troca_oleo, pintura, funilaria, balanceamento])
+    }
+    agent client193 : initiator.asl {
+        beliefs: services_needed([balanceamento, funilaria, troca_oleo])
+    }
+    agent client194 : initiator.asl {
+        beliefs: services_needed([troca_oleo, pintura, funilaria, balanceamento, alinhamento])
+    }
+    agent client195 : initiator.asl {
+        beliefs: services_needed([funilaria, alinhamento, troca_oleo, pintura])
+    }
+    agent client196 : initiator.asl {
+        beliefs: services_needed([balanceamento])
+    }
+    agent client197 : initiator.asl {
+        beliefs: services_needed([alinhamento, balanceamento])
+    }
+    agent client198 : initiator.asl {
+        beliefs: services_needed([funilaria, pintura, troca_oleo, alinhamento, balanceamento])
+    }
+    agent client199 : initiator.asl {
+        beliefs: services_needed([troca_oleo, alinhamento, pintura])
+    }
 
-    // Fornecedores (participants)
     agent oficina1 : participant.asl {
         beliefs: services_offered(funilaria)
-                 strategy(fixed)
-                 base_price(500)
-                 capacity(3)
+                 strategy(load)
+                 base_price(375)
+                 capacity(6)
     }
     agent oficina2 : participant.asl {
         beliefs: services_offered(funilaria)
-                 strategy(load)
-                 base_price(400)
-                 capacity(2)
-    }
-
-    agent oficina3 : participant.asl {
-        beliefs: services_offered(pintura)
                  strategy(random)
-                 base_price(300)
-                 capacity(20)
+                 base_price(360)
+                 capacity(6)
+    }
+    agent oficina3 : participant.asl {
+        beliefs: services_offered(funilaria)
+                 strategy(fixed)
+                 base_price(145)
+                 capacity(4)
     }
     agent oficina4 : participant.asl {
-        beliefs: services_offered(pintura)
-                 strategy(fixed)
-                 base_price(250)
-                 capacity(3)
-    }
-
-    agent oficina5 : participant.asl {
-        beliefs: services_offered(troca_oleo)
+        beliefs: services_offered(funilaria)
                  strategy(load)
-                 base_price(100)
+                 base_price(317)
+                 capacity(9)
+    }
+    agent oficina5 : participant.asl {
+        beliefs: services_offered(funilaria)
+                 strategy(random)
+                 base_price(569)
                  capacity(10)
     }
     agent oficina6 : participant.asl {
+        beliefs: services_offered(funilaria)
+                 strategy(fixed)
+                 base_price(368)
+                 capacity(8)
+    }
+    agent oficina7 : participant.asl {
+        beliefs: services_offered(funilaria)
+                 strategy(load)
+                 base_price(349)
+                 capacity(4)
+    }
+    agent oficina8 : participant.asl {
+        beliefs: services_offered(funilaria)
+                 strategy(random)
+                 base_price(446)
+                 capacity(7)
+    }
+    agent oficina9 : participant.asl {
+        beliefs: services_offered(funilaria)
+                 strategy(fixed)
+                 base_price(228)
+                 capacity(5)
+    }
+    agent oficina10 : participant.asl {
+        beliefs: services_offered(funilaria)
+                 strategy(load)
+                 base_price(321)
+                 capacity(3)
+    }
+    agent oficina11 : participant.asl {
+        beliefs: services_offered(pintura)
+                 strategy(random)
+                 base_price(325)
+                 capacity(8)
+    }
+    agent oficina12 : participant.asl {
+        beliefs: services_offered(pintura)
+                 strategy(fixed)
+                 base_price(331)
+                 capacity(9)
+    }
+    agent oficina13 : participant.asl {
+        beliefs: services_offered(pintura)
+                 strategy(load)
+                 base_price(156)
+                 capacity(6)
+    }
+    agent oficina14 : participant.asl {
+        beliefs: services_offered(pintura)
+                 strategy(random)
+                 base_price(519)
+                 capacity(7)
+    }
+    agent oficina15 : participant.asl {
+        beliefs: services_offered(pintura)
+                 strategy(fixed)
+                 base_price(362)
+                 capacity(5)
+    }
+    agent oficina16 : participant.asl {
+        beliefs: services_offered(pintura)
+                 strategy(load)
+                 base_price(153)
+                 capacity(9)
+    }
+    agent oficina17 : participant.asl {
+        beliefs: services_offered(pintura)
+                 strategy(random)
+                 base_price(392)
+                 capacity(9)
+    }
+    agent oficina18 : participant.asl {
+        beliefs: services_offered(pintura)
+                 strategy(fixed)
+                 base_price(232)
+                 capacity(4)
+    }
+    agent oficina19 : participant.asl {
+        beliefs: services_offered(pintura)
+                 strategy(load)
+                 base_price(365)
+                 capacity(8)
+    }
+    agent oficina20 : participant.asl {
+        beliefs: services_offered(pintura)
+                 strategy(random)
+                 base_price(258)
+                 capacity(4)
+    }
+    agent oficina21 : participant.asl {
+        beliefs: services_offered(troca_oleo)
+                 strategy(fixed)
+                 base_price(419)
+                 capacity(2)
+    }
+    agent oficina22 : participant.asl {
+        beliefs: services_offered(troca_oleo)
+                 strategy(load)
+                 base_price(189)
+                 capacity(7)
+    }
+    agent oficina23 : participant.asl {
         beliefs: services_offered(troca_oleo)
                  strategy(random)
-                 base_price(120)
+                 base_price(279)
+                 capacity(2)
+    }
+    agent oficina24 : participant.asl {
+        beliefs: services_offered(troca_oleo)
+                 strategy(fixed)
+                 base_price(435)
+                 capacity(8)
+    }
+    agent oficina25 : participant.asl {
+        beliefs: services_offered(troca_oleo)
+                 strategy(load)
+                 base_price(135)
+                 capacity(3)
+    }
+    agent oficina26 : participant.asl {
+        beliefs: services_offered(troca_oleo)
+                 strategy(random)
+                 base_price(521)
+                 capacity(6)
+    }
+    agent oficina27 : participant.asl {
+        beliefs: services_offered(troca_oleo)
+                 strategy(fixed)
+                 base_price(395)
+                 capacity(9)
+    }
+    agent oficina28 : participant.asl {
+        beliefs: services_offered(troca_oleo)
+                 strategy(load)
+                 base_price(201)
+                 capacity(7)
+    }
+    agent oficina29 : participant.asl {
+        beliefs: services_offered(troca_oleo)
+                 strategy(random)
+                 base_price(558)
+                 capacity(2)
+    }
+    agent oficina30 : participant.asl {
+        beliefs: services_offered(troca_oleo)
+                 strategy(fixed)
+                 base_price(210)
+                 capacity(7)
+    }
+    agent oficina31 : participant.asl {
+        beliefs: services_offered(alinhamento)
+                 strategy(load)
+                 base_price(478)
+                 capacity(8)
+    }
+    agent oficina32 : participant.asl {
+        beliefs: services_offered(alinhamento)
+                 strategy(random)
+                 base_price(278)
+                 capacity(10)
+    }
+    agent oficina33 : participant.asl {
+        beliefs: services_offered(alinhamento)
+                 strategy(fixed)
+                 base_price(322)
+                 capacity(4)
+    }
+    agent oficina34 : participant.asl {
+        beliefs: services_offered(alinhamento)
+                 strategy(load)
+                 base_price(386)
+                 capacity(9)
+    }
+    agent oficina35 : participant.asl {
+        beliefs: services_offered(alinhamento)
+                 strategy(random)
+                 base_price(243)
+                 capacity(8)
+    }
+    agent oficina36 : participant.asl {
+        beliefs: services_offered(alinhamento)
+                 strategy(fixed)
+                 base_price(459)
+                 capacity(4)
+    }
+    agent oficina37 : participant.asl {
+        beliefs: services_offered(alinhamento)
+                 strategy(load)
+                 base_price(349)
+                 capacity(9)
+    }
+    agent oficina38 : participant.asl {
+        beliefs: services_offered(alinhamento)
+                 strategy(random)
+                 base_price(367)
                  capacity(5)
+    }
+    agent oficina39 : participant.asl {
+        beliefs: services_offered(alinhamento)
+                 strategy(fixed)
+                 base_price(289)
+                 capacity(4)
+    }
+    agent oficina40 : participant.asl {
+        beliefs: services_offered(alinhamento)
+                 strategy(load)
+                 base_price(195)
+                 capacity(8)
+    }
+    agent oficina41 : participant.asl {
+        beliefs: services_offered(balanceamento)
+                 strategy(random)
+                 base_price(300)
+                 capacity(4)
+    }
+    agent oficina42 : participant.asl {
+        beliefs: services_offered(balanceamento)
+                 strategy(fixed)
+                 base_price(300)
+                 capacity(4)
+    }
+    agent oficina43 : participant.asl {
+        beliefs: services_offered(balanceamento)
+                 strategy(load)
+                 base_price(507)
+                 capacity(10)
+    }
+    agent oficina44 : participant.asl {
+        beliefs: services_offered(balanceamento)
+                 strategy(random)
+                 base_price(437)
+                 capacity(5)
+    }
+    agent oficina45 : participant.asl {
+        beliefs: services_offered(balanceamento)
+                 strategy(fixed)
+                 base_price(536)
+                 capacity(3)
+    }
+    agent oficina46 : participant.asl {
+        beliefs: services_offered(balanceamento)
+                 strategy(load)
+                 base_price(416)
+                 capacity(3)
+    }
+    agent oficina47 : participant.asl {
+        beliefs: services_offered(balanceamento)
+                 strategy(random)
+                 base_price(570)
+                 capacity(9)
+    }
+    agent oficina48 : participant.asl {
+        beliefs: services_offered(balanceamento)
+                 strategy(fixed)
+                 base_price(307)
+                 capacity(2)
+    }
+    agent oficina49 : participant.asl {
+        beliefs: services_offered(balanceamento)
+                 strategy(load)
+                 base_price(536)
+                 capacity(8)
     }
 
 }

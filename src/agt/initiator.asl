@@ -4,7 +4,7 @@ cnp_timeout(5000).
 
 +!start : services_needed(S) <-
     .print("Preciso dos serviços: ", S);
-    .wait(2000);
+    .wait(3000);
     for (.member(Service, S)) {
         !!run_cnp(Service);
     }.
