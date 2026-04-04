@@ -45,15 +45,23 @@ active_tasks(0).
 
 +accept_proposal(Service)[source(Initiator)] <-
     .print("Fui escolhido por ", Initiator, " para o serviço ", Service);
-    ?active_tasks(N);
-    -active_tasks(N);
-    +active_tasks(N + 1);
+    !inc_tasks;
     .wait(2000);
     .send(Initiator, tell, done(Service, "Serviço concluído"));
-    ?active_tasks(N1);
-    -active_tasks(N1);
-    +active_tasks(N1 - 1);
+    !dec_tasks;
     .print("Serviço ", Service, " concluído para ", Initiator).
+
+@inc[atomic]
++!inc_tasks <-
+    ?active_tasks(N);
+    -active_tasks(N);
+    +active_tasks(N + 1).
+
+@dec[atomic]
++!dec_tasks <-
+    ?active_tasks(N);
+    -active_tasks(N);
+    +active_tasks(N - 1).
 
 +reject_proposal(Service)[source(Initiator)] <-
     .print("Proposta rejeitada para ", Service, " por ", Initiator).
