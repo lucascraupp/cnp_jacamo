@@ -1,892 +1,892 @@
 mas cnp {
-    agent client1 : initiator.asl {
-        beliefs: services_needed([balanceamento, troca_oleo, pintura])
+    agent visitor1 : initiator.asl {
+        beliefs: services_needed([ceramica, madeira, bebidas])
     }
-    agent client2 : initiator.asl {
-        beliefs: services_needed([pintura, alinhamento, troca_oleo, balanceamento, funilaria])
+    agent visitor2 : initiator.asl {
+        beliefs: services_needed([bebidas, ferragem, madeira, ceramica, queijo])
     }
-    agent client3 : initiator.asl {
-        beliefs: services_needed([funilaria, pintura, troca_oleo, alinhamento, balanceamento])
+    agent visitor3 : initiator.asl {
+        beliefs: services_needed([queijo, bebidas, madeira, ferragem, ceramica])
     }
-    agent client4 : initiator.asl {
-        beliefs: services_needed([pintura, balanceamento, troca_oleo, alinhamento, funilaria])
+    agent visitor4 : initiator.asl {
+        beliefs: services_needed([bebidas, ceramica, madeira, ferragem, queijo])
     }
-    agent client5 : initiator.asl {
-        beliefs: services_needed([balanceamento, alinhamento, pintura, funilaria])
+    agent visitor5 : initiator.asl {
+        beliefs: services_needed([ceramica, ferragem, bebidas, queijo])
     }
-    agent client6 : initiator.asl {
-        beliefs: services_needed([pintura, funilaria, troca_oleo, alinhamento, balanceamento])
+    agent visitor6 : initiator.asl {
+        beliefs: services_needed([bebidas, queijo, madeira, ferragem, ceramica])
     }
-    agent client7 : initiator.asl {
-        beliefs: services_needed([troca_oleo, pintura, funilaria])
+    agent visitor7 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, queijo])
     }
-    agent client8 : initiator.asl {
-        beliefs: services_needed([alinhamento, pintura, troca_oleo, balanceamento])
+    agent visitor8 : initiator.asl {
+        beliefs: services_needed([ferragem, bebidas, madeira, ceramica])
     }
-    agent client9 : initiator.asl {
-        beliefs: services_needed([funilaria, balanceamento, pintura, alinhamento, troca_oleo])
+    agent visitor9 : initiator.asl {
+        beliefs: services_needed([queijo, ceramica, bebidas, ferragem, madeira])
     }
-    agent client10 : initiator.asl {
-        beliefs: services_needed([troca_oleo, funilaria, pintura, balanceamento, alinhamento])
+    agent visitor10 : initiator.asl {
+        beliefs: services_needed([madeira, queijo, bebidas, ceramica, ferragem])
     }
-    agent client11 : initiator.asl {
-        beliefs: services_needed([pintura, troca_oleo, balanceamento, funilaria, alinhamento])
+    agent visitor11 : initiator.asl {
+        beliefs: services_needed([bebidas, madeira, ceramica, queijo, ferragem])
     }
-    agent client12 : initiator.asl {
-        beliefs: services_needed([balanceamento, troca_oleo, pintura, funilaria])
+    agent visitor12 : initiator.asl {
+        beliefs: services_needed([ceramica, madeira, bebidas, queijo])
     }
-    agent client13 : initiator.asl {
-        beliefs: services_needed([pintura, balanceamento])
+    agent visitor13 : initiator.asl {
+        beliefs: services_needed([bebidas, ceramica])
     }
-    agent client14 : initiator.asl {
-        beliefs: services_needed([alinhamento, funilaria, pintura, troca_oleo])
+    agent visitor14 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, bebidas, madeira])
     }
-    agent client15 : initiator.asl {
-        beliefs: services_needed([alinhamento, funilaria, balanceamento, troca_oleo, pintura])
+    agent visitor15 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, ceramica, madeira, bebidas])
     }
-    agent client16 : initiator.asl {
-        beliefs: services_needed([pintura, troca_oleo, alinhamento, balanceamento, funilaria])
+    agent visitor16 : initiator.asl {
+        beliefs: services_needed([bebidas, madeira, ferragem, ceramica, queijo])
     }
-    agent client17 : initiator.asl {
-        beliefs: services_needed([alinhamento, funilaria, balanceamento, pintura, troca_oleo])
+    agent visitor17 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, ceramica, bebidas, madeira])
     }
-    agent client18 : initiator.asl {
-        beliefs: services_needed([alinhamento, funilaria])
+    agent visitor18 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo])
     }
-    agent client19 : initiator.asl {
-        beliefs: services_needed([troca_oleo, funilaria, pintura, alinhamento, balanceamento])
+    agent visitor19 : initiator.asl {
+        beliefs: services_needed([madeira, queijo, bebidas, ferragem, ceramica])
     }
-    agent client20 : initiator.asl {
-        beliefs: services_needed([troca_oleo, pintura, balanceamento])
+    agent visitor20 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, ceramica])
     }
-    agent client21 : initiator.asl {
-        beliefs: services_needed([alinhamento, troca_oleo, pintura, balanceamento, funilaria])
+    agent visitor21 : initiator.asl {
+        beliefs: services_needed([ferragem, madeira, bebidas, ceramica, queijo])
     }
-    agent client22 : initiator.asl {
-        beliefs: services_needed([troca_oleo, pintura, funilaria, alinhamento, balanceamento])
+    agent visitor22 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, queijo, ferragem, ceramica])
     }
-    agent client23 : initiator.asl {
-        beliefs: services_needed([balanceamento, troca_oleo])
+    agent visitor23 : initiator.asl {
+        beliefs: services_needed([ceramica, madeira])
     }
-    agent client24 : initiator.asl {
-        beliefs: services_needed([troca_oleo, funilaria])
+    agent visitor24 : initiator.asl {
+        beliefs: services_needed([madeira, queijo])
     }
-    agent client25 : initiator.asl {
-        beliefs: services_needed([balanceamento, funilaria, troca_oleo, pintura])
+    agent visitor25 : initiator.asl {
+        beliefs: services_needed([ceramica, queijo, madeira, bebidas])
     }
-    agent client26 : initiator.asl {
-        beliefs: services_needed([alinhamento, funilaria, troca_oleo, balanceamento])
+    agent visitor26 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, madeira, ceramica])
     }
-    agent client27 : initiator.asl {
-        beliefs: services_needed([alinhamento])
+    agent visitor27 : initiator.asl {
+        beliefs: services_needed([ferragem])
     }
-    agent client28 : initiator.asl {
-        beliefs: services_needed([troca_oleo, funilaria, balanceamento, pintura, alinhamento])
+    agent visitor28 : initiator.asl {
+        beliefs: services_needed([madeira, queijo, ceramica, bebidas, ferragem])
     }
-    agent client29 : initiator.asl {
-        beliefs: services_needed([balanceamento, pintura, alinhamento])
+    agent visitor29 : initiator.asl {
+        beliefs: services_needed([ceramica, bebidas, ferragem])
     }
-    agent client30 : initiator.asl {
-        beliefs: services_needed([alinhamento, pintura, funilaria])
+    agent visitor30 : initiator.asl {
+        beliefs: services_needed([ferragem, bebidas, queijo])
     }
-    agent client31 : initiator.asl {
-        beliefs: services_needed([alinhamento, funilaria, troca_oleo, balanceamento, pintura])
+    agent visitor31 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, madeira, ceramica, bebidas])
     }
-    agent client32 : initiator.asl {
-        beliefs: services_needed([funilaria, troca_oleo, balanceamento, alinhamento, pintura])
+    agent visitor32 : initiator.asl {
+        beliefs: services_needed([queijo, madeira, ceramica, ferragem, bebidas])
     }
-    agent client33 : initiator.asl {
-        beliefs: services_needed([troca_oleo, balanceamento, pintura])
+    agent visitor33 : initiator.asl {
+        beliefs: services_needed([madeira, ceramica, bebidas])
     }
-    agent client34 : initiator.asl {
-        beliefs: services_needed([pintura, funilaria, balanceamento, alinhamento, troca_oleo])
+    agent visitor34 : initiator.asl {
+        beliefs: services_needed([bebidas, queijo, ceramica, ferragem, madeira])
     }
-    agent client35 : initiator.asl {
-        beliefs: services_needed([pintura, balanceamento, funilaria, alinhamento, troca_oleo])
+    agent visitor35 : initiator.asl {
+        beliefs: services_needed([bebidas, ceramica, queijo, ferragem, madeira])
     }
-    agent client36 : initiator.asl {
-        beliefs: services_needed([alinhamento])
+    agent visitor36 : initiator.asl {
+        beliefs: services_needed([ferragem])
     }
-    agent client37 : initiator.asl {
-        beliefs: services_needed([balanceamento, alinhamento])
+    agent visitor37 : initiator.asl {
+        beliefs: services_needed([ceramica, ferragem])
     }
-    agent client38 : initiator.asl {
-        beliefs: services_needed([funilaria, pintura, balanceamento, troca_oleo, alinhamento])
+    agent visitor38 : initiator.asl {
+        beliefs: services_needed([queijo, bebidas, ceramica, madeira, ferragem])
     }
-    agent client39 : initiator.asl {
-        beliefs: services_needed([alinhamento, troca_oleo, funilaria])
+    agent visitor39 : initiator.asl {
+        beliefs: services_needed([ferragem, madeira, queijo])
     }
-    agent client40 : initiator.asl {
-        beliefs: services_needed([alinhamento, balanceamento, funilaria, troca_oleo, pintura])
+    agent visitor40 : initiator.asl {
+        beliefs: services_needed([ferragem, ceramica, queijo, madeira, bebidas])
     }
-    agent client41 : initiator.asl {
-        beliefs: services_needed([pintura, funilaria, balanceamento])
+    agent visitor41 : initiator.asl {
+        beliefs: services_needed([bebidas, queijo, ceramica])
     }
-    agent client42 : initiator.asl {
-        beliefs: services_needed([funilaria, balanceamento, troca_oleo])
+    agent visitor42 : initiator.asl {
+        beliefs: services_needed([queijo, ceramica, madeira])
     }
-    agent client43 : initiator.asl {
-        beliefs: services_needed([balanceamento, funilaria, troca_oleo, pintura])
+    agent visitor43 : initiator.asl {
+        beliefs: services_needed([ceramica, queijo, madeira, bebidas])
     }
-    agent client44 : initiator.asl {
-        beliefs: services_needed([alinhamento, funilaria, troca_oleo, balanceamento])
+    agent visitor44 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, madeira, ceramica])
     }
-    agent client45 : initiator.asl {
-        beliefs: services_needed([alinhamento])
+    agent visitor45 : initiator.asl {
+        beliefs: services_needed([ferragem])
     }
-    agent client46 : initiator.asl {
-        beliefs: services_needed([troca_oleo, pintura, balanceamento, alinhamento, funilaria])
+    agent visitor46 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, ceramica, ferragem, queijo])
     }
-    agent client47 : initiator.asl {
-        beliefs: services_needed([troca_oleo, alinhamento, funilaria, balanceamento])
+    agent visitor47 : initiator.asl {
+        beliefs: services_needed([madeira, ferragem, queijo, ceramica])
     }
-    agent client48 : initiator.asl {
-        beliefs: services_needed([pintura, troca_oleo, funilaria, alinhamento])
+    agent visitor48 : initiator.asl {
+        beliefs: services_needed([bebidas, madeira, queijo, ferragem])
     }
-    agent client49 : initiator.asl {
-        beliefs: services_needed([troca_oleo])
+    agent visitor49 : initiator.asl {
+        beliefs: services_needed([madeira])
     }
-    agent client50 : initiator.asl {
-        beliefs: services_needed([funilaria, pintura])
+    agent visitor50 : initiator.asl {
+        beliefs: services_needed([queijo, bebidas])
     }
-    agent client51 : initiator.asl {
-        beliefs: services_needed([balanceamento, pintura, alinhamento, troca_oleo, funilaria])
+    agent visitor51 : initiator.asl {
+        beliefs: services_needed([ceramica, bebidas, ferragem, madeira, queijo])
     }
-    agent client52 : initiator.asl {
-        beliefs: services_needed([balanceamento, alinhamento, funilaria, troca_oleo, pintura])
+    agent visitor52 : initiator.asl {
+        beliefs: services_needed([ceramica, ferragem, queijo, madeira, bebidas])
     }
-    agent client53 : initiator.asl {
-        beliefs: services_needed([pintura, balanceamento, funilaria, troca_oleo, alinhamento])
+    agent visitor53 : initiator.asl {
+        beliefs: services_needed([bebidas, ceramica, queijo, madeira, ferragem])
     }
-    agent client54 : initiator.asl {
-        beliefs: services_needed([troca_oleo, balanceamento, funilaria, pintura, alinhamento])
+    agent visitor54 : initiator.asl {
+        beliefs: services_needed([madeira, ceramica, queijo, bebidas, ferragem])
     }
-    agent client55 : initiator.asl {
-        beliefs: services_needed([troca_oleo, funilaria, pintura, alinhamento, balanceamento])
+    agent visitor55 : initiator.asl {
+        beliefs: services_needed([madeira, queijo, bebidas, ferragem, ceramica])
     }
-    agent client56 : initiator.asl {
-        beliefs: services_needed([troca_oleo, pintura, balanceamento, funilaria, alinhamento])
+    agent visitor56 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, ceramica, queijo, ferragem])
     }
-    agent client57 : initiator.asl {
-        beliefs: services_needed([funilaria])
+    agent visitor57 : initiator.asl {
+        beliefs: services_needed([queijo])
     }
-    agent client58 : initiator.asl {
-        beliefs: services_needed([alinhamento, funilaria, pintura, troca_oleo, balanceamento])
+    agent visitor58 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, bebidas, madeira, ceramica])
     }
-    agent client59 : initiator.asl {
-        beliefs: services_needed([balanceamento, troca_oleo, alinhamento, funilaria, pintura])
+    agent visitor59 : initiator.asl {
+        beliefs: services_needed([ceramica, madeira, ferragem, queijo, bebidas])
     }
-    agent client60 : initiator.asl {
-        beliefs: services_needed([funilaria, troca_oleo, pintura, balanceamento, alinhamento])
+    agent visitor60 : initiator.asl {
+        beliefs: services_needed([queijo, madeira, bebidas, ceramica, ferragem])
     }
-    agent client61 : initiator.asl {
-        beliefs: services_needed([balanceamento, alinhamento, pintura, funilaria])
+    agent visitor61 : initiator.asl {
+        beliefs: services_needed([ceramica, ferragem, bebidas, queijo])
     }
-    agent client62 : initiator.asl {
-        beliefs: services_needed([balanceamento, funilaria])
+    agent visitor62 : initiator.asl {
+        beliefs: services_needed([ceramica, queijo])
     }
-    agent client63 : initiator.asl {
-        beliefs: services_needed([balanceamento, alinhamento, troca_oleo, pintura, funilaria])
+    agent visitor63 : initiator.asl {
+        beliefs: services_needed([ceramica, ferragem, madeira, bebidas, queijo])
     }
-    agent client64 : initiator.asl {
-        beliefs: services_needed([balanceamento, pintura, troca_oleo, funilaria, alinhamento])
+    agent visitor64 : initiator.asl {
+        beliefs: services_needed([ceramica, bebidas, madeira, queijo, ferragem])
     }
-    agent client65 : initiator.asl {
-        beliefs: services_needed([funilaria, pintura, alinhamento, balanceamento, troca_oleo])
+    agent visitor65 : initiator.asl {
+        beliefs: services_needed([queijo, bebidas, ferragem, ceramica, madeira])
     }
-    agent client66 : initiator.asl {
-        beliefs: services_needed([alinhamento, pintura, troca_oleo, balanceamento, funilaria])
+    agent visitor66 : initiator.asl {
+        beliefs: services_needed([ferragem, bebidas, madeira, ceramica, queijo])
     }
-    agent client67 : initiator.asl {
-        beliefs: services_needed([alinhamento, funilaria, pintura, troca_oleo, balanceamento])
+    agent visitor67 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, bebidas, madeira, ceramica])
     }
-    agent client68 : initiator.asl {
-        beliefs: services_needed([pintura, funilaria, alinhamento])
+    agent visitor68 : initiator.asl {
+        beliefs: services_needed([bebidas, queijo, ferragem])
     }
-    agent client69 : initiator.asl {
-        beliefs: services_needed([balanceamento, alinhamento, troca_oleo, funilaria, pintura])
+    agent visitor69 : initiator.asl {
+        beliefs: services_needed([ceramica, ferragem, madeira, queijo, bebidas])
     }
-    agent client70 : initiator.asl {
-        beliefs: services_needed([balanceamento, pintura, troca_oleo, funilaria, alinhamento])
+    agent visitor70 : initiator.asl {
+        beliefs: services_needed([ceramica, bebidas, madeira, queijo, ferragem])
     }
-    agent client71 : initiator.asl {
-        beliefs: services_needed([funilaria, pintura])
+    agent visitor71 : initiator.asl {
+        beliefs: services_needed([queijo, bebidas])
     }
-    agent client72 : initiator.asl {
-        beliefs: services_needed([troca_oleo])
+    agent visitor72 : initiator.asl {
+        beliefs: services_needed([madeira])
     }
-    agent client73 : initiator.asl {
-        beliefs: services_needed([balanceamento, funilaria, alinhamento, pintura])
+    agent visitor73 : initiator.asl {
+        beliefs: services_needed([ceramica, queijo, ferragem, bebidas])
     }
-    agent client74 : initiator.asl {
-        beliefs: services_needed([balanceamento, alinhamento])
+    agent visitor74 : initiator.asl {
+        beliefs: services_needed([ceramica, ferragem])
     }
-    agent client75 : initiator.asl {
-        beliefs: services_needed([alinhamento, troca_oleo, funilaria, balanceamento, pintura])
+    agent visitor75 : initiator.asl {
+        beliefs: services_needed([ferragem, madeira, queijo, ceramica, bebidas])
     }
-    agent client76 : initiator.asl {
-        beliefs: services_needed([pintura, alinhamento, troca_oleo, funilaria, balanceamento])
+    agent visitor76 : initiator.asl {
+        beliefs: services_needed([bebidas, ferragem, madeira, queijo, ceramica])
     }
-    agent client77 : initiator.asl {
-        beliefs: services_needed([troca_oleo, funilaria, balanceamento, alinhamento, pintura])
+    agent visitor77 : initiator.asl {
+        beliefs: services_needed([madeira, queijo, ceramica, ferragem, bebidas])
     }
-    agent client78 : initiator.asl {
-        beliefs: services_needed([balanceamento, troca_oleo, alinhamento, pintura, funilaria])
+    agent visitor78 : initiator.asl {
+        beliefs: services_needed([ceramica, madeira, ferragem, bebidas, queijo])
     }
-    agent client79 : initiator.asl {
-        beliefs: services_needed([troca_oleo, balanceamento, pintura])
+    agent visitor79 : initiator.asl {
+        beliefs: services_needed([madeira, ceramica, bebidas])
     }
-    agent client80 : initiator.asl {
-        beliefs: services_needed([balanceamento, troca_oleo, pintura, alinhamento])
+    agent visitor80 : initiator.asl {
+        beliefs: services_needed([ceramica, madeira, bebidas, ferragem])
     }
-    agent client81 : initiator.asl {
-        beliefs: services_needed([funilaria])
+    agent visitor81 : initiator.asl {
+        beliefs: services_needed([queijo])
     }
-    agent client82 : initiator.asl {
-        beliefs: services_needed([balanceamento, troca_oleo, funilaria, alinhamento, pintura])
+    agent visitor82 : initiator.asl {
+        beliefs: services_needed([ceramica, madeira, queijo, ferragem, bebidas])
     }
-    agent client83 : initiator.asl {
-        beliefs: services_needed([balanceamento, alinhamento, pintura, funilaria, troca_oleo])
+    agent visitor83 : initiator.asl {
+        beliefs: services_needed([ceramica, ferragem, bebidas, queijo, madeira])
     }
-    agent client84 : initiator.asl {
-        beliefs: services_needed([troca_oleo, funilaria, pintura])
+    agent visitor84 : initiator.asl {
+        beliefs: services_needed([madeira, queijo, bebidas])
     }
-    agent client85 : initiator.asl {
-        beliefs: services_needed([balanceamento, pintura, funilaria, alinhamento, troca_oleo])
+    agent visitor85 : initiator.asl {
+        beliefs: services_needed([ceramica, bebidas, queijo, ferragem, madeira])
     }
-    agent client86 : initiator.asl {
-        beliefs: services_needed([pintura, funilaria, alinhamento, troca_oleo])
+    agent visitor86 : initiator.asl {
+        beliefs: services_needed([bebidas, queijo, ferragem, madeira])
     }
-    agent client87 : initiator.asl {
-        beliefs: services_needed([alinhamento, funilaria, balanceamento, troca_oleo])
+    agent visitor87 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, ceramica, madeira])
     }
-    agent client88 : initiator.asl {
-        beliefs: services_needed([balanceamento, funilaria, pintura, troca_oleo, alinhamento])
+    agent visitor88 : initiator.asl {
+        beliefs: services_needed([ceramica, queijo, bebidas, madeira, ferragem])
     }
-    agent client89 : initiator.asl {
-        beliefs: services_needed([balanceamento, funilaria, troca_oleo, alinhamento])
+    agent visitor89 : initiator.asl {
+        beliefs: services_needed([ceramica, queijo, madeira, ferragem])
     }
-    agent client90 : initiator.asl {
-        beliefs: services_needed([alinhamento, troca_oleo, pintura, funilaria, balanceamento])
+    agent visitor90 : initiator.asl {
+        beliefs: services_needed([ferragem, madeira, bebidas, queijo, ceramica])
     }
-    agent client91 : initiator.asl {
-        beliefs: services_needed([troca_oleo, alinhamento, funilaria, balanceamento, pintura])
+    agent visitor91 : initiator.asl {
+        beliefs: services_needed([madeira, ferragem, queijo, ceramica, bebidas])
     }
-    agent client92 : initiator.asl {
-        beliefs: services_needed([troca_oleo, balanceamento, funilaria, alinhamento, pintura])
+    agent visitor92 : initiator.asl {
+        beliefs: services_needed([madeira, ceramica, queijo, ferragem, bebidas])
     }
-    agent client93 : initiator.asl {
-        beliefs: services_needed([pintura, alinhamento, troca_oleo])
+    agent visitor93 : initiator.asl {
+        beliefs: services_needed([bebidas, ferragem, madeira])
     }
-    agent client94 : initiator.asl {
-        beliefs: services_needed([troca_oleo, balanceamento, alinhamento, funilaria, pintura])
+    agent visitor94 : initiator.asl {
+        beliefs: services_needed([madeira, ceramica, ferragem, queijo, bebidas])
     }
-    agent client95 : initiator.asl {
-        beliefs: services_needed([balanceamento])
+    agent visitor95 : initiator.asl {
+        beliefs: services_needed([ceramica])
     }
-    agent client96 : initiator.asl {
-        beliefs: services_needed([pintura, troca_oleo])
+    agent visitor96 : initiator.asl {
+        beliefs: services_needed([bebidas, madeira])
     }
-    agent client97 : initiator.asl {
-        beliefs: services_needed([alinhamento, balanceamento, funilaria, pintura, troca_oleo])
+    agent visitor97 : initiator.asl {
+        beliefs: services_needed([ferragem, ceramica, queijo, bebidas, madeira])
     }
-    agent client98 : initiator.asl {
-        beliefs: services_needed([troca_oleo, balanceamento, funilaria, alinhamento, pintura])
+    agent visitor98 : initiator.asl {
+        beliefs: services_needed([madeira, ceramica, queijo, ferragem, bebidas])
     }
-    agent client99 : initiator.asl {
-        beliefs: services_needed([alinhamento])
+    agent visitor99 : initiator.asl {
+        beliefs: services_needed([ferragem])
     }
-    agent client100 : initiator.asl {
-        beliefs: services_needed([pintura])
+    agent visitor100 : initiator.asl {
+        beliefs: services_needed([bebidas])
     }
-    agent client101 : initiator.asl {
-        beliefs: services_needed([alinhamento, funilaria, troca_oleo, pintura, balanceamento])
+    agent visitor101 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, madeira, bebidas, ceramica])
     }
-    agent client102 : initiator.asl {
-        beliefs: services_needed([troca_oleo, alinhamento, pintura, balanceamento])
+    agent visitor102 : initiator.asl {
+        beliefs: services_needed([madeira, ferragem, bebidas, ceramica])
     }
-    agent client103 : initiator.asl {
-        beliefs: services_needed([troca_oleo, balanceamento, alinhamento, funilaria])
+    agent visitor103 : initiator.asl {
+        beliefs: services_needed([madeira, ceramica, ferragem, queijo])
     }
-    agent client104 : initiator.asl {
-        beliefs: services_needed([troca_oleo])
+    agent visitor104 : initiator.asl {
+        beliefs: services_needed([madeira])
     }
-    agent client105 : initiator.asl {
-        beliefs: services_needed([pintura, troca_oleo, funilaria, balanceamento, alinhamento])
+    agent visitor105 : initiator.asl {
+        beliefs: services_needed([bebidas, madeira, queijo, ceramica, ferragem])
     }
-    agent client106 : initiator.asl {
-        beliefs: services_needed([funilaria, pintura, balanceamento, alinhamento, troca_oleo])
+    agent visitor106 : initiator.asl {
+        beliefs: services_needed([queijo, bebidas, ceramica, ferragem, madeira])
     }
-    agent client107 : initiator.asl {
-        beliefs: services_needed([funilaria, alinhamento, balanceamento, troca_oleo, pintura])
+    agent visitor107 : initiator.asl {
+        beliefs: services_needed([queijo, ferragem, ceramica, madeira, bebidas])
     }
-    agent client108 : initiator.asl {
-        beliefs: services_needed([balanceamento, troca_oleo, alinhamento, funilaria, pintura])
+    agent visitor108 : initiator.asl {
+        beliefs: services_needed([ceramica, madeira, ferragem, queijo, bebidas])
     }
-    agent client109 : initiator.asl {
-        beliefs: services_needed([troca_oleo, pintura, funilaria])
+    agent visitor109 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, queijo])
     }
-    agent client110 : initiator.asl {
-        beliefs: services_needed([alinhamento, troca_oleo, pintura, funilaria])
+    agent visitor110 : initiator.asl {
+        beliefs: services_needed([ferragem, madeira, bebidas, queijo])
     }
-    agent client111 : initiator.asl {
-        beliefs: services_needed([balanceamento, troca_oleo, pintura, funilaria, alinhamento])
+    agent visitor111 : initiator.asl {
+        beliefs: services_needed([ceramica, madeira, bebidas, queijo, ferragem])
     }
-    agent client112 : initiator.asl {
-        beliefs: services_needed([pintura, troca_oleo])
+    agent visitor112 : initiator.asl {
+        beliefs: services_needed([bebidas, madeira])
     }
-    agent client113 : initiator.asl {
-        beliefs: services_needed([troca_oleo, pintura, alinhamento, balanceamento, funilaria])
+    agent visitor113 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, ferragem, ceramica, queijo])
     }
-    agent client114 : initiator.asl {
-        beliefs: services_needed([funilaria, balanceamento, pintura, alinhamento, troca_oleo])
+    agent visitor114 : initiator.asl {
+        beliefs: services_needed([queijo, ceramica, bebidas, ferragem, madeira])
     }
-    agent client115 : initiator.asl {
-        beliefs: services_needed([funilaria, balanceamento, troca_oleo, pintura, alinhamento])
+    agent visitor115 : initiator.asl {
+        beliefs: services_needed([queijo, ceramica, madeira, bebidas, ferragem])
     }
-    agent client116 : initiator.asl {
-        beliefs: services_needed([troca_oleo, funilaria, pintura, alinhamento, balanceamento])
+    agent visitor116 : initiator.asl {
+        beliefs: services_needed([madeira, queijo, bebidas, ferragem, ceramica])
     }
-    agent client117 : initiator.asl {
-        beliefs: services_needed([troca_oleo, pintura, balanceamento])
+    agent visitor117 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, ceramica])
     }
-    agent client118 : initiator.asl {
-        beliefs: services_needed([alinhamento, funilaria, troca_oleo, balanceamento, pintura])
+    agent visitor118 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, madeira, ceramica, bebidas])
     }
-    agent client119 : initiator.asl {
-        beliefs: services_needed([balanceamento, pintura, troca_oleo, alinhamento, funilaria])
+    agent visitor119 : initiator.asl {
+        beliefs: services_needed([ceramica, bebidas, madeira, ferragem, queijo])
     }
-    agent client120 : initiator.asl {
-        beliefs: services_needed([alinhamento, troca_oleo, balanceamento, pintura, funilaria])
+    agent visitor120 : initiator.asl {
+        beliefs: services_needed([ferragem, madeira, ceramica, bebidas, queijo])
     }
-    agent client121 : initiator.asl {
-        beliefs: services_needed([balanceamento, funilaria, pintura, alinhamento, troca_oleo])
+    agent visitor121 : initiator.asl {
+        beliefs: services_needed([ceramica, queijo, bebidas, ferragem, madeira])
     }
-    agent client122 : initiator.asl {
-        beliefs: services_needed([pintura, funilaria, alinhamento, balanceamento, troca_oleo])
+    agent visitor122 : initiator.asl {
+        beliefs: services_needed([bebidas, queijo, ferragem, ceramica, madeira])
     }
-    agent client123 : initiator.asl {
-        beliefs: services_needed([pintura])
+    agent visitor123 : initiator.asl {
+        beliefs: services_needed([bebidas])
     }
-    agent client124 : initiator.asl {
-        beliefs: services_needed([pintura, troca_oleo, alinhamento, funilaria, balanceamento])
+    agent visitor124 : initiator.asl {
+        beliefs: services_needed([bebidas, madeira, ferragem, queijo, ceramica])
     }
-    agent client125 : initiator.asl {
-        beliefs: services_needed([alinhamento, troca_oleo, pintura, funilaria, balanceamento])
+    agent visitor125 : initiator.asl {
+        beliefs: services_needed([ferragem, madeira, bebidas, queijo, ceramica])
     }
-    agent client126 : initiator.asl {
-        beliefs: services_needed([pintura, alinhamento, troca_oleo, funilaria])
+    agent visitor126 : initiator.asl {
+        beliefs: services_needed([bebidas, ferragem, madeira, queijo])
     }
-    agent client127 : initiator.asl {
-        beliefs: services_needed([troca_oleo, pintura, alinhamento, balanceamento, funilaria])
+    agent visitor127 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, ferragem, ceramica, queijo])
     }
-    agent client128 : initiator.asl {
-        beliefs: services_needed([troca_oleo, pintura, balanceamento])
+    agent visitor128 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, ceramica])
     }
-    agent client129 : initiator.asl {
-        beliefs: services_needed([troca_oleo, funilaria])
+    agent visitor129 : initiator.asl {
+        beliefs: services_needed([madeira, queijo])
     }
-    agent client130 : initiator.asl {
-        beliefs: services_needed([alinhamento, funilaria, pintura, troca_oleo])
+    agent visitor130 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, bebidas, madeira])
     }
-    agent client131 : initiator.asl {
-        beliefs: services_needed([troca_oleo, pintura, balanceamento, alinhamento, funilaria])
+    agent visitor131 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, ceramica, ferragem, queijo])
     }
-    agent client132 : initiator.asl {
-        beliefs: services_needed([balanceamento, alinhamento, funilaria, pintura, troca_oleo])
+    agent visitor132 : initiator.asl {
+        beliefs: services_needed([ceramica, ferragem, queijo, bebidas, madeira])
     }
-    agent client133 : initiator.asl {
-        beliefs: services_needed([troca_oleo, balanceamento])
+    agent visitor133 : initiator.asl {
+        beliefs: services_needed([madeira, ceramica])
     }
-    agent client134 : initiator.asl {
-        beliefs: services_needed([balanceamento, pintura, troca_oleo, funilaria, alinhamento])
+    agent visitor134 : initiator.asl {
+        beliefs: services_needed([ceramica, bebidas, madeira, queijo, ferragem])
     }
-    agent client135 : initiator.asl {
-        beliefs: services_needed([alinhamento, funilaria, pintura, troca_oleo, balanceamento])
+    agent visitor135 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, bebidas, madeira, ceramica])
     }
-    agent client136 : initiator.asl {
-        beliefs: services_needed([troca_oleo, pintura, alinhamento, funilaria, balanceamento])
+    agent visitor136 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, ferragem, queijo, ceramica])
     }
-    agent client137 : initiator.asl {
-        beliefs: services_needed([balanceamento, funilaria, alinhamento, troca_oleo, pintura])
+    agent visitor137 : initiator.asl {
+        beliefs: services_needed([ceramica, queijo, ferragem, madeira, bebidas])
     }
-    agent client138 : initiator.asl {
-        beliefs: services_needed([funilaria, pintura, alinhamento, troca_oleo, balanceamento])
+    agent visitor138 : initiator.asl {
+        beliefs: services_needed([queijo, bebidas, ferragem, madeira, ceramica])
     }
-    agent client139 : initiator.asl {
-        beliefs: services_needed([alinhamento])
+    agent visitor139 : initiator.asl {
+        beliefs: services_needed([ferragem])
     }
-    agent client140 : initiator.asl {
-        beliefs: services_needed([alinhamento, pintura, funilaria, troca_oleo, balanceamento])
+    agent visitor140 : initiator.asl {
+        beliefs: services_needed([ferragem, bebidas, queijo, madeira, ceramica])
     }
-    agent client141 : initiator.asl {
-        beliefs: services_needed([pintura, funilaria])
+    agent visitor141 : initiator.asl {
+        beliefs: services_needed([bebidas, queijo])
     }
-    agent client142 : initiator.asl {
-        beliefs: services_needed([alinhamento, funilaria, troca_oleo, balanceamento, pintura])
+    agent visitor142 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, madeira, ceramica, bebidas])
     }
-    agent client143 : initiator.asl {
-        beliefs: services_needed([balanceamento, pintura, funilaria, alinhamento, troca_oleo])
+    agent visitor143 : initiator.asl {
+        beliefs: services_needed([ceramica, bebidas, queijo, ferragem, madeira])
     }
-    agent client144 : initiator.asl {
-        beliefs: services_needed([funilaria, troca_oleo, alinhamento])
+    agent visitor144 : initiator.asl {
+        beliefs: services_needed([queijo, madeira, ferragem])
     }
-    agent client145 : initiator.asl {
-        beliefs: services_needed([alinhamento, funilaria, troca_oleo, pintura])
+    agent visitor145 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, madeira, bebidas])
     }
-    agent client146 : initiator.asl {
-        beliefs: services_needed([balanceamento, alinhamento])
+    agent visitor146 : initiator.asl {
+        beliefs: services_needed([ceramica, ferragem])
     }
-    agent client147 : initiator.asl {
-        beliefs: services_needed([balanceamento, pintura, alinhamento, troca_oleo, funilaria])
+    agent visitor147 : initiator.asl {
+        beliefs: services_needed([ceramica, bebidas, ferragem, madeira, queijo])
     }
-    agent client148 : initiator.asl {
-        beliefs: services_needed([alinhamento, pintura, troca_oleo, funilaria, balanceamento])
+    agent visitor148 : initiator.asl {
+        beliefs: services_needed([ferragem, bebidas, madeira, queijo, ceramica])
     }
-    agent client149 : initiator.asl {
-        beliefs: services_needed([funilaria, alinhamento, troca_oleo, pintura, balanceamento])
+    agent visitor149 : initiator.asl {
+        beliefs: services_needed([queijo, ferragem, madeira, bebidas, ceramica])
     }
-    agent client150 : initiator.asl {
-        beliefs: services_needed([balanceamento, alinhamento, pintura, troca_oleo, funilaria])
+    agent visitor150 : initiator.asl {
+        beliefs: services_needed([ceramica, ferragem, bebidas, madeira, queijo])
     }
-    agent client151 : initiator.asl {
-        beliefs: services_needed([troca_oleo, funilaria, pintura, balanceamento, alinhamento])
+    agent visitor151 : initiator.asl {
+        beliefs: services_needed([madeira, queijo, bebidas, ceramica, ferragem])
     }
-    agent client152 : initiator.asl {
-        beliefs: services_needed([alinhamento, troca_oleo, balanceamento, funilaria, pintura])
+    agent visitor152 : initiator.asl {
+        beliefs: services_needed([ferragem, madeira, ceramica, queijo, bebidas])
     }
-    agent client153 : initiator.asl {
-        beliefs: services_needed([funilaria, balanceamento])
+    agent visitor153 : initiator.asl {
+        beliefs: services_needed([queijo, ceramica])
     }
-    agent client154 : initiator.asl {
-        beliefs: services_needed([troca_oleo])
+    agent visitor154 : initiator.asl {
+        beliefs: services_needed([madeira])
     }
-    agent client155 : initiator.asl {
-        beliefs: services_needed([balanceamento, pintura, troca_oleo, alinhamento, funilaria])
+    agent visitor155 : initiator.asl {
+        beliefs: services_needed([ceramica, bebidas, madeira, ferragem, queijo])
     }
-    agent client156 : initiator.asl {
-        beliefs: services_needed([funilaria, pintura, alinhamento, troca_oleo])
+    agent visitor156 : initiator.asl {
+        beliefs: services_needed([queijo, bebidas, ferragem, madeira])
     }
-    agent client157 : initiator.asl {
-        beliefs: services_needed([funilaria, alinhamento, troca_oleo, pintura, balanceamento])
+    agent visitor157 : initiator.asl {
+        beliefs: services_needed([queijo, ferragem, madeira, bebidas, ceramica])
     }
-    agent client158 : initiator.asl {
-        beliefs: services_needed([funilaria, troca_oleo])
+    agent visitor158 : initiator.asl {
+        beliefs: services_needed([queijo, madeira])
     }
-    agent client159 : initiator.asl {
-        beliefs: services_needed([pintura, funilaria, balanceamento])
+    agent visitor159 : initiator.asl {
+        beliefs: services_needed([bebidas, queijo, ceramica])
     }
-    agent client160 : initiator.asl {
-        beliefs: services_needed([pintura, funilaria])
+    agent visitor160 : initiator.asl {
+        beliefs: services_needed([bebidas, queijo])
     }
-    agent client161 : initiator.asl {
-        beliefs: services_needed([troca_oleo, balanceamento, funilaria])
+    agent visitor161 : initiator.asl {
+        beliefs: services_needed([madeira, ceramica, queijo])
     }
-    agent client162 : initiator.asl {
-        beliefs: services_needed([pintura, balanceamento, funilaria])
+    agent visitor162 : initiator.asl {
+        beliefs: services_needed([bebidas, ceramica, queijo])
     }
-    agent client163 : initiator.asl {
-        beliefs: services_needed([funilaria, pintura, balanceamento, troca_oleo, alinhamento])
+    agent visitor163 : initiator.asl {
+        beliefs: services_needed([queijo, bebidas, ceramica, madeira, ferragem])
     }
-    agent client164 : initiator.asl {
-        beliefs: services_needed([funilaria, balanceamento, troca_oleo, alinhamento, pintura])
+    agent visitor164 : initiator.asl {
+        beliefs: services_needed([queijo, ceramica, madeira, ferragem, bebidas])
     }
-    agent client165 : initiator.asl {
-        beliefs: services_needed([funilaria, pintura, troca_oleo, alinhamento, balanceamento])
+    agent visitor165 : initiator.asl {
+        beliefs: services_needed([queijo, bebidas, madeira, ferragem, ceramica])
     }
-    agent client166 : initiator.asl {
-        beliefs: services_needed([pintura, funilaria])
+    agent visitor166 : initiator.asl {
+        beliefs: services_needed([bebidas, queijo])
     }
-    agent client167 : initiator.asl {
-        beliefs: services_needed([troca_oleo, balanceamento, alinhamento, pintura, funilaria])
+    agent visitor167 : initiator.asl {
+        beliefs: services_needed([madeira, ceramica, ferragem, bebidas, queijo])
     }
-    agent client168 : initiator.asl {
-        beliefs: services_needed([balanceamento, troca_oleo, alinhamento])
+    agent visitor168 : initiator.asl {
+        beliefs: services_needed([ceramica, madeira, ferragem])
     }
-    agent client169 : initiator.asl {
-        beliefs: services_needed([troca_oleo])
+    agent visitor169 : initiator.asl {
+        beliefs: services_needed([madeira])
     }
-    agent client170 : initiator.asl {
-        beliefs: services_needed([alinhamento, troca_oleo, funilaria, balanceamento])
+    agent visitor170 : initiator.asl {
+        beliefs: services_needed([ferragem, madeira, queijo, ceramica])
     }
-    agent client171 : initiator.asl {
-        beliefs: services_needed([alinhamento, troca_oleo])
+    agent visitor171 : initiator.asl {
+        beliefs: services_needed([ferragem, madeira])
     }
-    agent client172 : initiator.asl {
-        beliefs: services_needed([alinhamento])
+    agent visitor172 : initiator.asl {
+        beliefs: services_needed([ferragem])
     }
-    agent client173 : initiator.asl {
-        beliefs: services_needed([troca_oleo, pintura, alinhamento, balanceamento, funilaria])
+    agent visitor173 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, ferragem, ceramica, queijo])
     }
-    agent client174 : initiator.asl {
-        beliefs: services_needed([pintura, balanceamento, troca_oleo, alinhamento])
+    agent visitor174 : initiator.asl {
+        beliefs: services_needed([bebidas, ceramica, madeira, ferragem])
     }
-    agent client175 : initiator.asl {
-        beliefs: services_needed([troca_oleo, funilaria, alinhamento, balanceamento, pintura])
+    agent visitor175 : initiator.asl {
+        beliefs: services_needed([madeira, queijo, ferragem, ceramica, bebidas])
     }
-    agent client176 : initiator.asl {
-        beliefs: services_needed([troca_oleo, balanceamento, pintura, funilaria, alinhamento])
+    agent visitor176 : initiator.asl {
+        beliefs: services_needed([madeira, ceramica, bebidas, queijo, ferragem])
     }
-    agent client177 : initiator.asl {
-        beliefs: services_needed([alinhamento, pintura, funilaria, balanceamento])
+    agent visitor177 : initiator.asl {
+        beliefs: services_needed([ferragem, bebidas, queijo, ceramica])
     }
-    agent client178 : initiator.asl {
-        beliefs: services_needed([balanceamento, pintura, funilaria, alinhamento, troca_oleo])
+    agent visitor178 : initiator.asl {
+        beliefs: services_needed([ceramica, bebidas, queijo, ferragem, madeira])
     }
-    agent client179 : initiator.asl {
-        beliefs: services_needed([balanceamento, troca_oleo, pintura, funilaria, alinhamento])
+    agent visitor179 : initiator.asl {
+        beliefs: services_needed([ceramica, madeira, bebidas, queijo, ferragem])
     }
-    agent client180 : initiator.asl {
-        beliefs: services_needed([troca_oleo, balanceamento, pintura, funilaria, alinhamento])
+    agent visitor180 : initiator.asl {
+        beliefs: services_needed([madeira, ceramica, bebidas, queijo, ferragem])
     }
-    agent client181 : initiator.asl {
-        beliefs: services_needed([pintura, alinhamento, funilaria, balanceamento, troca_oleo])
+    agent visitor181 : initiator.asl {
+        beliefs: services_needed([bebidas, ferragem, queijo, ceramica, madeira])
     }
-    agent client182 : initiator.asl {
-        beliefs: services_needed([funilaria, alinhamento, troca_oleo, pintura, balanceamento])
+    agent visitor182 : initiator.asl {
+        beliefs: services_needed([queijo, ferragem, madeira, bebidas, ceramica])
     }
-    agent client183 : initiator.asl {
-        beliefs: services_needed([pintura, alinhamento, funilaria, balanceamento, troca_oleo])
+    agent visitor183 : initiator.asl {
+        beliefs: services_needed([bebidas, ferragem, queijo, ceramica, madeira])
     }
-    agent client184 : initiator.asl {
-        beliefs: services_needed([balanceamento, funilaria, troca_oleo, pintura])
+    agent visitor184 : initiator.asl {
+        beliefs: services_needed([ceramica, queijo, madeira, bebidas])
     }
-    agent client185 : initiator.asl {
-        beliefs: services_needed([funilaria, pintura, troca_oleo, alinhamento, balanceamento])
+    agent visitor185 : initiator.asl {
+        beliefs: services_needed([queijo, bebidas, madeira, ferragem, ceramica])
     }
-    agent client186 : initiator.asl {
-        beliefs: services_needed([pintura, alinhamento, funilaria])
+    agent visitor186 : initiator.asl {
+        beliefs: services_needed([bebidas, ferragem, queijo])
     }
-    agent client187 : initiator.asl {
-        beliefs: services_needed([balanceamento, pintura, funilaria, troca_oleo, alinhamento])
+    agent visitor187 : initiator.asl {
+        beliefs: services_needed([ceramica, bebidas, queijo, madeira, ferragem])
     }
-    agent client188 : initiator.asl {
-        beliefs: services_needed([funilaria, pintura, alinhamento])
+    agent visitor188 : initiator.asl {
+        beliefs: services_needed([queijo, bebidas, ferragem])
     }
-    agent client189 : initiator.asl {
-        beliefs: services_needed([troca_oleo, funilaria])
+    agent visitor189 : initiator.asl {
+        beliefs: services_needed([madeira, queijo])
     }
-    agent client190 : initiator.asl {
-        beliefs: services_needed([troca_oleo, alinhamento, funilaria, pintura, balanceamento])
+    agent visitor190 : initiator.asl {
+        beliefs: services_needed([madeira, ferragem, queijo, bebidas, ceramica])
     }
-    agent client191 : initiator.asl {
-        beliefs: services_needed([troca_oleo, pintura, alinhamento, funilaria, balanceamento])
+    agent visitor191 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, ferragem, queijo, ceramica])
     }
-    agent client192 : initiator.asl {
-        beliefs: services_needed([alinhamento, troca_oleo, pintura, funilaria, balanceamento])
+    agent visitor192 : initiator.asl {
+        beliefs: services_needed([ferragem, madeira, bebidas, queijo, ceramica])
     }
-    agent client193 : initiator.asl {
-        beliefs: services_needed([balanceamento, funilaria, troca_oleo])
+    agent visitor193 : initiator.asl {
+        beliefs: services_needed([ceramica, queijo, madeira])
     }
-    agent client194 : initiator.asl {
-        beliefs: services_needed([troca_oleo, pintura, funilaria, balanceamento, alinhamento])
+    agent visitor194 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, queijo, ceramica, ferragem])
     }
-    agent client195 : initiator.asl {
-        beliefs: services_needed([funilaria, alinhamento, troca_oleo, pintura])
+    agent visitor195 : initiator.asl {
+        beliefs: services_needed([queijo, ferragem, madeira, bebidas])
     }
-    agent client196 : initiator.asl {
-        beliefs: services_needed([balanceamento])
+    agent visitor196 : initiator.asl {
+        beliefs: services_needed([ceramica])
     }
-    agent client197 : initiator.asl {
-        beliefs: services_needed([alinhamento, balanceamento])
+    agent visitor197 : initiator.asl {
+        beliefs: services_needed([ferragem, ceramica])
     }
-    agent client198 : initiator.asl {
-        beliefs: services_needed([funilaria, pintura, troca_oleo, alinhamento, balanceamento])
+    agent visitor198 : initiator.asl {
+        beliefs: services_needed([queijo, bebidas, madeira, ferragem, ceramica])
     }
-    agent client199 : initiator.asl {
-        beliefs: services_needed([troca_oleo, alinhamento, pintura])
+    agent visitor199 : initiator.asl {
+        beliefs: services_needed([madeira, ferragem, bebidas])
     }
 
-    agent oficina1 : participant.asl {
-        beliefs: services_offered(funilaria)
+    agent artisan1 : participant.asl {
+        beliefs: services_offered(queijo)
                  strategy(load)
                  base_price(375)
                  capacity(6)
     }
-    agent oficina2 : participant.asl {
-        beliefs: services_offered(funilaria)
+    agent artisan2 : participant.asl {
+        beliefs: services_offered(queijo)
                  strategy(random)
                  base_price(360)
                  capacity(6)
     }
-    agent oficina3 : participant.asl {
-        beliefs: services_offered(funilaria)
+    agent artisan3 : participant.asl {
+        beliefs: services_offered(queijo)
                  strategy(fixed)
                  base_price(145)
                  capacity(4)
     }
-    agent oficina4 : participant.asl {
-        beliefs: services_offered(funilaria)
+    agent artisan4 : participant.asl {
+        beliefs: services_offered(queijo)
                  strategy(load)
                  base_price(317)
                  capacity(9)
     }
-    agent oficina5 : participant.asl {
-        beliefs: services_offered(funilaria)
+    agent artisan5 : participant.asl {
+        beliefs: services_offered(queijo)
                  strategy(random)
                  base_price(569)
                  capacity(10)
     }
-    agent oficina6 : participant.asl {
-        beliefs: services_offered(funilaria)
+    agent artisan6 : participant.asl {
+        beliefs: services_offered(queijo)
                  strategy(fixed)
                  base_price(368)
                  capacity(8)
     }
-    agent oficina7 : participant.asl {
-        beliefs: services_offered(funilaria)
+    agent artisan7 : participant.asl {
+        beliefs: services_offered(queijo)
                  strategy(load)
                  base_price(349)
                  capacity(4)
     }
-    agent oficina8 : participant.asl {
-        beliefs: services_offered(funilaria)
+    agent artisan8 : participant.asl {
+        beliefs: services_offered(queijo)
                  strategy(random)
                  base_price(446)
                  capacity(7)
     }
-    agent oficina9 : participant.asl {
-        beliefs: services_offered(funilaria)
+    agent artisan9 : participant.asl {
+        beliefs: services_offered(queijo)
                  strategy(fixed)
                  base_price(228)
                  capacity(5)
     }
-    agent oficina10 : participant.asl {
-        beliefs: services_offered(funilaria)
+    agent artisan10 : participant.asl {
+        beliefs: services_offered(queijo)
                  strategy(load)
                  base_price(321)
                  capacity(3)
     }
-    agent oficina11 : participant.asl {
-        beliefs: services_offered(pintura)
+    agent artisan11 : participant.asl {
+        beliefs: services_offered(bebidas)
                  strategy(random)
                  base_price(325)
                  capacity(8)
     }
-    agent oficina12 : participant.asl {
-        beliefs: services_offered(pintura)
+    agent artisan12 : participant.asl {
+        beliefs: services_offered(bebidas)
                  strategy(fixed)
                  base_price(331)
                  capacity(9)
     }
-    agent oficina13 : participant.asl {
-        beliefs: services_offered(pintura)
+    agent artisan13 : participant.asl {
+        beliefs: services_offered(bebidas)
                  strategy(load)
                  base_price(156)
                  capacity(6)
     }
-    agent oficina14 : participant.asl {
-        beliefs: services_offered(pintura)
+    agent artisan14 : participant.asl {
+        beliefs: services_offered(bebidas)
                  strategy(random)
                  base_price(519)
                  capacity(7)
     }
-    agent oficina15 : participant.asl {
-        beliefs: services_offered(pintura)
+    agent artisan15 : participant.asl {
+        beliefs: services_offered(bebidas)
                  strategy(fixed)
                  base_price(362)
                  capacity(5)
     }
-    agent oficina16 : participant.asl {
-        beliefs: services_offered(pintura)
+    agent artisan16 : participant.asl {
+        beliefs: services_offered(bebidas)
                  strategy(load)
                  base_price(153)
                  capacity(9)
     }
-    agent oficina17 : participant.asl {
-        beliefs: services_offered(pintura)
+    agent artisan17 : participant.asl {
+        beliefs: services_offered(bebidas)
                  strategy(random)
                  base_price(392)
                  capacity(9)
     }
-    agent oficina18 : participant.asl {
-        beliefs: services_offered(pintura)
+    agent artisan18 : participant.asl {
+        beliefs: services_offered(bebidas)
                  strategy(fixed)
                  base_price(232)
                  capacity(4)
     }
-    agent oficina19 : participant.asl {
-        beliefs: services_offered(pintura)
+    agent artisan19 : participant.asl {
+        beliefs: services_offered(bebidas)
                  strategy(load)
                  base_price(365)
                  capacity(8)
     }
-    agent oficina20 : participant.asl {
-        beliefs: services_offered(pintura)
+    agent artisan20 : participant.asl {
+        beliefs: services_offered(bebidas)
                  strategy(random)
                  base_price(258)
                  capacity(4)
     }
-    agent oficina21 : participant.asl {
-        beliefs: services_offered(troca_oleo)
+    agent artisan21 : participant.asl {
+        beliefs: services_offered(madeira)
                  strategy(fixed)
                  base_price(419)
                  capacity(2)
     }
-    agent oficina22 : participant.asl {
-        beliefs: services_offered(troca_oleo)
+    agent artisan22 : participant.asl {
+        beliefs: services_offered(madeira)
                  strategy(load)
                  base_price(189)
                  capacity(7)
     }
-    agent oficina23 : participant.asl {
-        beliefs: services_offered(troca_oleo)
+    agent artisan23 : participant.asl {
+        beliefs: services_offered(madeira)
                  strategy(random)
                  base_price(279)
                  capacity(2)
     }
-    agent oficina24 : participant.asl {
-        beliefs: services_offered(troca_oleo)
+    agent artisan24 : participant.asl {
+        beliefs: services_offered(madeira)
                  strategy(fixed)
                  base_price(435)
                  capacity(8)
     }
-    agent oficina25 : participant.asl {
-        beliefs: services_offered(troca_oleo)
+    agent artisan25 : participant.asl {
+        beliefs: services_offered(madeira)
                  strategy(load)
                  base_price(135)
                  capacity(3)
     }
-    agent oficina26 : participant.asl {
-        beliefs: services_offered(troca_oleo)
+    agent artisan26 : participant.asl {
+        beliefs: services_offered(madeira)
                  strategy(random)
                  base_price(521)
                  capacity(6)
     }
-    agent oficina27 : participant.asl {
-        beliefs: services_offered(troca_oleo)
+    agent artisan27 : participant.asl {
+        beliefs: services_offered(madeira)
                  strategy(fixed)
                  base_price(395)
                  capacity(9)
     }
-    agent oficina28 : participant.asl {
-        beliefs: services_offered(troca_oleo)
+    agent artisan28 : participant.asl {
+        beliefs: services_offered(madeira)
                  strategy(load)
                  base_price(201)
                  capacity(7)
     }
-    agent oficina29 : participant.asl {
-        beliefs: services_offered(troca_oleo)
+    agent artisan29 : participant.asl {
+        beliefs: services_offered(madeira)
                  strategy(random)
                  base_price(558)
                  capacity(2)
     }
-    agent oficina30 : participant.asl {
-        beliefs: services_offered(troca_oleo)
+    agent artisan30 : participant.asl {
+        beliefs: services_offered(madeira)
                  strategy(fixed)
                  base_price(210)
                  capacity(7)
     }
-    agent oficina31 : participant.asl {
-        beliefs: services_offered(alinhamento)
+    agent artisan31 : participant.asl {
+        beliefs: services_offered(ferragem)
                  strategy(load)
                  base_price(478)
                  capacity(8)
     }
-    agent oficina32 : participant.asl {
-        beliefs: services_offered(alinhamento)
+    agent artisan32 : participant.asl {
+        beliefs: services_offered(ferragem)
                  strategy(random)
                  base_price(278)
                  capacity(10)
     }
-    agent oficina33 : participant.asl {
-        beliefs: services_offered(alinhamento)
+    agent artisan33 : participant.asl {
+        beliefs: services_offered(ferragem)
                  strategy(fixed)
                  base_price(322)
                  capacity(4)
     }
-    agent oficina34 : participant.asl {
-        beliefs: services_offered(alinhamento)
+    agent artisan34 : participant.asl {
+        beliefs: services_offered(ferragem)
                  strategy(load)
                  base_price(386)
                  capacity(9)
     }
-    agent oficina35 : participant.asl {
-        beliefs: services_offered(alinhamento)
+    agent artisan35 : participant.asl {
+        beliefs: services_offered(ferragem)
                  strategy(random)
                  base_price(243)
                  capacity(8)
     }
-    agent oficina36 : participant.asl {
-        beliefs: services_offered(alinhamento)
+    agent artisan36 : participant.asl {
+        beliefs: services_offered(ferragem)
                  strategy(fixed)
                  base_price(459)
                  capacity(4)
     }
-    agent oficina37 : participant.asl {
-        beliefs: services_offered(alinhamento)
+    agent artisan37 : participant.asl {
+        beliefs: services_offered(ferragem)
                  strategy(load)
                  base_price(349)
                  capacity(9)
     }
-    agent oficina38 : participant.asl {
-        beliefs: services_offered(alinhamento)
+    agent artisan38 : participant.asl {
+        beliefs: services_offered(ferragem)
                  strategy(random)
                  base_price(367)
                  capacity(5)
     }
-    agent oficina39 : participant.asl {
-        beliefs: services_offered(alinhamento)
+    agent artisan39 : participant.asl {
+        beliefs: services_offered(ferragem)
                  strategy(fixed)
                  base_price(289)
                  capacity(4)
     }
-    agent oficina40 : participant.asl {
-        beliefs: services_offered(alinhamento)
+    agent artisan40 : participant.asl {
+        beliefs: services_offered(ferragem)
                  strategy(load)
                  base_price(195)
                  capacity(8)
     }
-    agent oficina41 : participant.asl {
-        beliefs: services_offered(balanceamento)
+    agent artisan41 : participant.asl {
+        beliefs: services_offered(ceramica)
                  strategy(random)
                  base_price(300)
                  capacity(4)
     }
-    agent oficina42 : participant.asl {
-        beliefs: services_offered(balanceamento)
+    agent artisan42 : participant.asl {
+        beliefs: services_offered(ceramica)
                  strategy(fixed)
                  base_price(300)
                  capacity(4)
     }
-    agent oficina43 : participant.asl {
-        beliefs: services_offered(balanceamento)
+    agent artisan43 : participant.asl {
+        beliefs: services_offered(ceramica)
                  strategy(load)
                  base_price(507)
                  capacity(10)
     }
-    agent oficina44 : participant.asl {
-        beliefs: services_offered(balanceamento)
+    agent artisan44 : participant.asl {
+        beliefs: services_offered(ceramica)
                  strategy(random)
                  base_price(437)
                  capacity(5)
     }
-    agent oficina45 : participant.asl {
-        beliefs: services_offered(balanceamento)
+    agent artisan45 : participant.asl {
+        beliefs: services_offered(ceramica)
                  strategy(fixed)
                  base_price(536)
                  capacity(3)
     }
-    agent oficina46 : participant.asl {
-        beliefs: services_offered(balanceamento)
+    agent artisan46 : participant.asl {
+        beliefs: services_offered(ceramica)
                  strategy(load)
                  base_price(416)
                  capacity(3)
     }
-    agent oficina47 : participant.asl {
-        beliefs: services_offered(balanceamento)
+    agent artisan47 : participant.asl {
+        beliefs: services_offered(ceramica)
                  strategy(random)
                  base_price(570)
                  capacity(9)
     }
-    agent oficina48 : participant.asl {
-        beliefs: services_offered(balanceamento)
+    agent artisan48 : participant.asl {
+        beliefs: services_offered(ceramica)
                  strategy(fixed)
                  base_price(307)
                  capacity(2)
     }
-    agent oficina49 : participant.asl {
-        beliefs: services_offered(balanceamento)
+    agent artisan49 : participant.asl {
+        beliefs: services_offered(ceramica)
                  strategy(load)
                  base_price(536)
                  capacity(8)
