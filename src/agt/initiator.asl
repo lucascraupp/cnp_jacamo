@@ -11,11 +11,11 @@ cnp_timeout(5000).
 
 +!run_cnp(Service) <-
     .my_name(Me);
-    .print("Buscando oficinas para: ", Service);
+    .print("Buscando artesãos para: ", Service);
     .df_search(Service, Participants);
-    .print("Oficinas encontradas para ", Service, ": ", Participants);
+    .print("Artesãos encontrados para ", Service, ": ", Participants);
     if (Participants == []) {
-        .print("Nenhuma oficina para ", Service);
+        .print("Nenhum artesão para ", Service);
     } else {
         .send(Participants, tell, cfp(Service, Me));
         ?cnp_timeout(Timeout);
@@ -59,7 +59,7 @@ cnp_timeout(5000).
 // === FASE 5: Resultado ===
 
 +done(Service, Result)[source(Sender)] <-
-    .print("Servico ", Service, " concluido por ", Sender, ": ", Result).
+    .print("Serviço ", Service, " concluído por ", Sender, ": ", Result).
 
 +failure(Service, Reason)[source(Sender)] <-
     .print("Falha em ", Service, " por ", Sender, ": ", Reason).
