@@ -1,0 +1,895 @@
+mas cnp {
+    agent visitor1 : initiator.asl {
+        beliefs: services_needed([ceramica, madeira, bebidas])
+    }
+    agent visitor2 : initiator.asl {
+        beliefs: services_needed([bebidas, ferragem, madeira, ceramica, queijo])
+    }
+    agent visitor3 : initiator.asl {
+        beliefs: services_needed([queijo, bebidas, madeira, ferragem, ceramica])
+    }
+    agent visitor4 : initiator.asl {
+        beliefs: services_needed([bebidas, ceramica, madeira, ferragem, queijo])
+    }
+    agent visitor5 : initiator.asl {
+        beliefs: services_needed([ceramica, ferragem, bebidas, queijo])
+    }
+    agent visitor6 : initiator.asl {
+        beliefs: services_needed([bebidas, queijo, madeira, ferragem, ceramica])
+    }
+    agent visitor7 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, queijo])
+    }
+    agent visitor8 : initiator.asl {
+        beliefs: services_needed([ferragem, bebidas, madeira, ceramica])
+    }
+    agent visitor9 : initiator.asl {
+        beliefs: services_needed([queijo, ceramica, bebidas, ferragem, madeira])
+    }
+    agent visitor10 : initiator.asl {
+        beliefs: services_needed([madeira, queijo, bebidas, ceramica, ferragem])
+    }
+    agent visitor11 : initiator.asl {
+        beliefs: services_needed([bebidas, madeira, ceramica, queijo, ferragem])
+    }
+    agent visitor12 : initiator.asl {
+        beliefs: services_needed([ceramica, madeira, bebidas, queijo])
+    }
+    agent visitor13 : initiator.asl {
+        beliefs: services_needed([bebidas, ceramica])
+    }
+    agent visitor14 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, bebidas, madeira])
+    }
+    agent visitor15 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, ceramica, madeira, bebidas])
+    }
+    agent visitor16 : initiator.asl {
+        beliefs: services_needed([bebidas, madeira, ferragem, ceramica, queijo])
+    }
+    agent visitor17 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, ceramica, bebidas, madeira])
+    }
+    agent visitor18 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo])
+    }
+    agent visitor19 : initiator.asl {
+        beliefs: services_needed([madeira, queijo, bebidas, ferragem, ceramica])
+    }
+    agent visitor20 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, ceramica])
+    }
+    agent visitor21 : initiator.asl {
+        beliefs: services_needed([ferragem, madeira, bebidas, ceramica, queijo])
+    }
+    agent visitor22 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, queijo, ferragem, ceramica])
+    }
+    agent visitor23 : initiator.asl {
+        beliefs: services_needed([ceramica, madeira])
+    }
+    agent visitor24 : initiator.asl {
+        beliefs: services_needed([madeira, queijo])
+    }
+    agent visitor25 : initiator.asl {
+        beliefs: services_needed([ceramica, queijo, madeira, bebidas])
+    }
+    agent visitor26 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, madeira, ceramica])
+    }
+    agent visitor27 : initiator.asl {
+        beliefs: services_needed([ferragem])
+    }
+    agent visitor28 : initiator.asl {
+        beliefs: services_needed([madeira, queijo, ceramica, bebidas, ferragem])
+    }
+    agent visitor29 : initiator.asl {
+        beliefs: services_needed([ceramica, bebidas, ferragem])
+    }
+    agent visitor30 : initiator.asl {
+        beliefs: services_needed([ferragem, bebidas, queijo])
+    }
+    agent visitor31 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, madeira, ceramica, bebidas])
+    }
+    agent visitor32 : initiator.asl {
+        beliefs: services_needed([queijo, madeira, ceramica, ferragem, bebidas])
+    }
+    agent visitor33 : initiator.asl {
+        beliefs: services_needed([madeira, ceramica, bebidas])
+    }
+    agent visitor34 : initiator.asl {
+        beliefs: services_needed([bebidas, queijo, ceramica, ferragem, madeira])
+    }
+    agent visitor35 : initiator.asl {
+        beliefs: services_needed([bebidas, ceramica, queijo, ferragem, madeira])
+    }
+    agent visitor36 : initiator.asl {
+        beliefs: services_needed([ferragem])
+    }
+    agent visitor37 : initiator.asl {
+        beliefs: services_needed([ceramica, ferragem])
+    }
+    agent visitor38 : initiator.asl {
+        beliefs: services_needed([queijo, bebidas, ceramica, madeira, ferragem])
+    }
+    agent visitor39 : initiator.asl {
+        beliefs: services_needed([ferragem, madeira, queijo])
+    }
+    agent visitor40 : initiator.asl {
+        beliefs: services_needed([ferragem, ceramica, queijo, madeira, bebidas])
+    }
+    agent visitor41 : initiator.asl {
+        beliefs: services_needed([bebidas, queijo, ceramica])
+    }
+    agent visitor42 : initiator.asl {
+        beliefs: services_needed([queijo, ceramica, madeira])
+    }
+    agent visitor43 : initiator.asl {
+        beliefs: services_needed([ceramica, queijo, madeira, bebidas])
+    }
+    agent visitor44 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, madeira, ceramica])
+    }
+    agent visitor45 : initiator.asl {
+        beliefs: services_needed([ferragem])
+    }
+    agent visitor46 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, ceramica, ferragem, queijo])
+    }
+    agent visitor47 : initiator.asl {
+        beliefs: services_needed([madeira, ferragem, queijo, ceramica])
+    }
+    agent visitor48 : initiator.asl {
+        beliefs: services_needed([bebidas, madeira, queijo, ferragem])
+    }
+    agent visitor49 : initiator.asl {
+        beliefs: services_needed([madeira])
+    }
+    agent visitor50 : initiator.asl {
+        beliefs: services_needed([queijo, bebidas])
+    }
+    agent visitor51 : initiator.asl {
+        beliefs: services_needed([ceramica, bebidas, ferragem, madeira, queijo])
+    }
+    agent visitor52 : initiator.asl {
+        beliefs: services_needed([ceramica, ferragem, queijo, madeira, bebidas])
+    }
+    agent visitor53 : initiator.asl {
+        beliefs: services_needed([bebidas, ceramica, queijo, madeira, ferragem])
+    }
+    agent visitor54 : initiator.asl {
+        beliefs: services_needed([madeira, ceramica, queijo, bebidas, ferragem])
+    }
+    agent visitor55 : initiator.asl {
+        beliefs: services_needed([madeira, queijo, bebidas, ferragem, ceramica])
+    }
+    agent visitor56 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, ceramica, queijo, ferragem])
+    }
+    agent visitor57 : initiator.asl {
+        beliefs: services_needed([queijo])
+    }
+    agent visitor58 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, bebidas, madeira, ceramica])
+    }
+    agent visitor59 : initiator.asl {
+        beliefs: services_needed([ceramica, madeira, ferragem, queijo, bebidas])
+    }
+    agent visitor60 : initiator.asl {
+        beliefs: services_needed([queijo, madeira, bebidas, ceramica, ferragem])
+    }
+    agent visitor61 : initiator.asl {
+        beliefs: services_needed([ceramica, ferragem, bebidas, queijo])
+    }
+    agent visitor62 : initiator.asl {
+        beliefs: services_needed([ceramica, queijo])
+    }
+    agent visitor63 : initiator.asl {
+        beliefs: services_needed([ceramica, ferragem, madeira, bebidas, queijo])
+    }
+    agent visitor64 : initiator.asl {
+        beliefs: services_needed([ceramica, bebidas, madeira, queijo, ferragem])
+    }
+    agent visitor65 : initiator.asl {
+        beliefs: services_needed([queijo, bebidas, ferragem, ceramica, madeira])
+    }
+    agent visitor66 : initiator.asl {
+        beliefs: services_needed([ferragem, bebidas, madeira, ceramica, queijo])
+    }
+    agent visitor67 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, bebidas, madeira, ceramica])
+    }
+    agent visitor68 : initiator.asl {
+        beliefs: services_needed([bebidas, queijo, ferragem])
+    }
+    agent visitor69 : initiator.asl {
+        beliefs: services_needed([ceramica, ferragem, madeira, queijo, bebidas])
+    }
+    agent visitor70 : initiator.asl {
+        beliefs: services_needed([ceramica, bebidas, madeira, queijo, ferragem])
+    }
+    agent visitor71 : initiator.asl {
+        beliefs: services_needed([queijo, bebidas])
+    }
+    agent visitor72 : initiator.asl {
+        beliefs: services_needed([madeira])
+    }
+    agent visitor73 : initiator.asl {
+        beliefs: services_needed([ceramica, queijo, ferragem, bebidas])
+    }
+    agent visitor74 : initiator.asl {
+        beliefs: services_needed([ceramica, ferragem])
+    }
+    agent visitor75 : initiator.asl {
+        beliefs: services_needed([ferragem, madeira, queijo, ceramica, bebidas])
+    }
+    agent visitor76 : initiator.asl {
+        beliefs: services_needed([bebidas, ferragem, madeira, queijo, ceramica])
+    }
+    agent visitor77 : initiator.asl {
+        beliefs: services_needed([madeira, queijo, ceramica, ferragem, bebidas])
+    }
+    agent visitor78 : initiator.asl {
+        beliefs: services_needed([ceramica, madeira, ferragem, bebidas, queijo])
+    }
+    agent visitor79 : initiator.asl {
+        beliefs: services_needed([madeira, ceramica, bebidas])
+    }
+    agent visitor80 : initiator.asl {
+        beliefs: services_needed([ceramica, madeira, bebidas, ferragem])
+    }
+    agent visitor81 : initiator.asl {
+        beliefs: services_needed([queijo])
+    }
+    agent visitor82 : initiator.asl {
+        beliefs: services_needed([ceramica, madeira, queijo, ferragem, bebidas])
+    }
+    agent visitor83 : initiator.asl {
+        beliefs: services_needed([ceramica, ferragem, bebidas, queijo, madeira])
+    }
+    agent visitor84 : initiator.asl {
+        beliefs: services_needed([madeira, queijo, bebidas])
+    }
+    agent visitor85 : initiator.asl {
+        beliefs: services_needed([ceramica, bebidas, queijo, ferragem, madeira])
+    }
+    agent visitor86 : initiator.asl {
+        beliefs: services_needed([bebidas, queijo, ferragem, madeira])
+    }
+    agent visitor87 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, ceramica, madeira])
+    }
+    agent visitor88 : initiator.asl {
+        beliefs: services_needed([ceramica, queijo, bebidas, madeira, ferragem])
+    }
+    agent visitor89 : initiator.asl {
+        beliefs: services_needed([ceramica, queijo, madeira, ferragem])
+    }
+    agent visitor90 : initiator.asl {
+        beliefs: services_needed([ferragem, madeira, bebidas, queijo, ceramica])
+    }
+    agent visitor91 : initiator.asl {
+        beliefs: services_needed([madeira, ferragem, queijo, ceramica, bebidas])
+    }
+    agent visitor92 : initiator.asl {
+        beliefs: services_needed([madeira, ceramica, queijo, ferragem, bebidas])
+    }
+    agent visitor93 : initiator.asl {
+        beliefs: services_needed([bebidas, ferragem, madeira])
+    }
+    agent visitor94 : initiator.asl {
+        beliefs: services_needed([madeira, ceramica, ferragem, queijo, bebidas])
+    }
+    agent visitor95 : initiator.asl {
+        beliefs: services_needed([ceramica])
+    }
+    agent visitor96 : initiator.asl {
+        beliefs: services_needed([bebidas, madeira])
+    }
+    agent visitor97 : initiator.asl {
+        beliefs: services_needed([ferragem, ceramica, queijo, bebidas, madeira])
+    }
+    agent visitor98 : initiator.asl {
+        beliefs: services_needed([madeira, ceramica, queijo, ferragem, bebidas])
+    }
+    agent visitor99 : initiator.asl {
+        beliefs: services_needed([ferragem])
+    }
+    agent visitor100 : initiator.asl {
+        beliefs: services_needed([bebidas])
+    }
+    agent visitor101 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, madeira, bebidas, ceramica])
+    }
+    agent visitor102 : initiator.asl {
+        beliefs: services_needed([madeira, ferragem, bebidas, ceramica])
+    }
+    agent visitor103 : initiator.asl {
+        beliefs: services_needed([madeira, ceramica, ferragem, queijo])
+    }
+    agent visitor104 : initiator.asl {
+        beliefs: services_needed([madeira])
+    }
+    agent visitor105 : initiator.asl {
+        beliefs: services_needed([bebidas, madeira, queijo, ceramica, ferragem])
+    }
+    agent visitor106 : initiator.asl {
+        beliefs: services_needed([queijo, bebidas, ceramica, ferragem, madeira])
+    }
+    agent visitor107 : initiator.asl {
+        beliefs: services_needed([queijo, ferragem, ceramica, madeira, bebidas])
+    }
+    agent visitor108 : initiator.asl {
+        beliefs: services_needed([ceramica, madeira, ferragem, queijo, bebidas])
+    }
+    agent visitor109 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, queijo])
+    }
+    agent visitor110 : initiator.asl {
+        beliefs: services_needed([ferragem, madeira, bebidas, queijo])
+    }
+    agent visitor111 : initiator.asl {
+        beliefs: services_needed([ceramica, madeira, bebidas, queijo, ferragem])
+    }
+    agent visitor112 : initiator.asl {
+        beliefs: services_needed([bebidas, madeira])
+    }
+    agent visitor113 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, ferragem, ceramica, queijo])
+    }
+    agent visitor114 : initiator.asl {
+        beliefs: services_needed([queijo, ceramica, bebidas, ferragem, madeira])
+    }
+    agent visitor115 : initiator.asl {
+        beliefs: services_needed([queijo, ceramica, madeira, bebidas, ferragem])
+    }
+    agent visitor116 : initiator.asl {
+        beliefs: services_needed([madeira, queijo, bebidas, ferragem, ceramica])
+    }
+    agent visitor117 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, ceramica])
+    }
+    agent visitor118 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, madeira, ceramica, bebidas])
+    }
+    agent visitor119 : initiator.asl {
+        beliefs: services_needed([ceramica, bebidas, madeira, ferragem, queijo])
+    }
+    agent visitor120 : initiator.asl {
+        beliefs: services_needed([ferragem, madeira, ceramica, bebidas, queijo])
+    }
+    agent visitor121 : initiator.asl {
+        beliefs: services_needed([ceramica, queijo, bebidas, ferragem, madeira])
+    }
+    agent visitor122 : initiator.asl {
+        beliefs: services_needed([bebidas, queijo, ferragem, ceramica, madeira])
+    }
+    agent visitor123 : initiator.asl {
+        beliefs: services_needed([bebidas])
+    }
+    agent visitor124 : initiator.asl {
+        beliefs: services_needed([bebidas, madeira, ferragem, queijo, ceramica])
+    }
+    agent visitor125 : initiator.asl {
+        beliefs: services_needed([ferragem, madeira, bebidas, queijo, ceramica])
+    }
+    agent visitor126 : initiator.asl {
+        beliefs: services_needed([bebidas, ferragem, madeira, queijo])
+    }
+    agent visitor127 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, ferragem, ceramica, queijo])
+    }
+    agent visitor128 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, ceramica])
+    }
+    agent visitor129 : initiator.asl {
+        beliefs: services_needed([madeira, queijo])
+    }
+    agent visitor130 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, bebidas, madeira])
+    }
+    agent visitor131 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, ceramica, ferragem, queijo])
+    }
+    agent visitor132 : initiator.asl {
+        beliefs: services_needed([ceramica, ferragem, queijo, bebidas, madeira])
+    }
+    agent visitor133 : initiator.asl {
+        beliefs: services_needed([madeira, ceramica])
+    }
+    agent visitor134 : initiator.asl {
+        beliefs: services_needed([ceramica, bebidas, madeira, queijo, ferragem])
+    }
+    agent visitor135 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, bebidas, madeira, ceramica])
+    }
+    agent visitor136 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, ferragem, queijo, ceramica])
+    }
+    agent visitor137 : initiator.asl {
+        beliefs: services_needed([ceramica, queijo, ferragem, madeira, bebidas])
+    }
+    agent visitor138 : initiator.asl {
+        beliefs: services_needed([queijo, bebidas, ferragem, madeira, ceramica])
+    }
+    agent visitor139 : initiator.asl {
+        beliefs: services_needed([ferragem])
+    }
+    agent visitor140 : initiator.asl {
+        beliefs: services_needed([ferragem, bebidas, queijo, madeira, ceramica])
+    }
+    agent visitor141 : initiator.asl {
+        beliefs: services_needed([bebidas, queijo])
+    }
+    agent visitor142 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, madeira, ceramica, bebidas])
+    }
+    agent visitor143 : initiator.asl {
+        beliefs: services_needed([ceramica, bebidas, queijo, ferragem, madeira])
+    }
+    agent visitor144 : initiator.asl {
+        beliefs: services_needed([queijo, madeira, ferragem])
+    }
+    agent visitor145 : initiator.asl {
+        beliefs: services_needed([ferragem, queijo, madeira, bebidas])
+    }
+    agent visitor146 : initiator.asl {
+        beliefs: services_needed([ceramica, ferragem])
+    }
+    agent visitor147 : initiator.asl {
+        beliefs: services_needed([ceramica, bebidas, ferragem, madeira, queijo])
+    }
+    agent visitor148 : initiator.asl {
+        beliefs: services_needed([ferragem, bebidas, madeira, queijo, ceramica])
+    }
+    agent visitor149 : initiator.asl {
+        beliefs: services_needed([queijo, ferragem, madeira, bebidas, ceramica])
+    }
+    agent visitor150 : initiator.asl {
+        beliefs: services_needed([ceramica, ferragem, bebidas, madeira, queijo])
+    }
+    agent visitor151 : initiator.asl {
+        beliefs: services_needed([madeira, queijo, bebidas, ceramica, ferragem])
+    }
+    agent visitor152 : initiator.asl {
+        beliefs: services_needed([ferragem, madeira, ceramica, queijo, bebidas])
+    }
+    agent visitor153 : initiator.asl {
+        beliefs: services_needed([queijo, ceramica])
+    }
+    agent visitor154 : initiator.asl {
+        beliefs: services_needed([madeira])
+    }
+    agent visitor155 : initiator.asl {
+        beliefs: services_needed([ceramica, bebidas, madeira, ferragem, queijo])
+    }
+    agent visitor156 : initiator.asl {
+        beliefs: services_needed([queijo, bebidas, ferragem, madeira])
+    }
+    agent visitor157 : initiator.asl {
+        beliefs: services_needed([queijo, ferragem, madeira, bebidas, ceramica])
+    }
+    agent visitor158 : initiator.asl {
+        beliefs: services_needed([queijo, madeira])
+    }
+    agent visitor159 : initiator.asl {
+        beliefs: services_needed([bebidas, queijo, ceramica])
+    }
+    agent visitor160 : initiator.asl {
+        beliefs: services_needed([bebidas, queijo])
+    }
+    agent visitor161 : initiator.asl {
+        beliefs: services_needed([madeira, ceramica, queijo])
+    }
+    agent visitor162 : initiator.asl {
+        beliefs: services_needed([bebidas, ceramica, queijo])
+    }
+    agent visitor163 : initiator.asl {
+        beliefs: services_needed([queijo, bebidas, ceramica, madeira, ferragem])
+    }
+    agent visitor164 : initiator.asl {
+        beliefs: services_needed([queijo, ceramica, madeira, ferragem, bebidas])
+    }
+    agent visitor165 : initiator.asl {
+        beliefs: services_needed([queijo, bebidas, madeira, ferragem, ceramica])
+    }
+    agent visitor166 : initiator.asl {
+        beliefs: services_needed([bebidas, queijo])
+    }
+    agent visitor167 : initiator.asl {
+        beliefs: services_needed([madeira, ceramica, ferragem, bebidas, queijo])
+    }
+    agent visitor168 : initiator.asl {
+        beliefs: services_needed([ceramica, madeira, ferragem])
+    }
+    agent visitor169 : initiator.asl {
+        beliefs: services_needed([madeira])
+    }
+    agent visitor170 : initiator.asl {
+        beliefs: services_needed([ferragem, madeira, queijo, ceramica])
+    }
+    agent visitor171 : initiator.asl {
+        beliefs: services_needed([ferragem, madeira])
+    }
+    agent visitor172 : initiator.asl {
+        beliefs: services_needed([ferragem])
+    }
+    agent visitor173 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, ferragem, ceramica, queijo])
+    }
+    agent visitor174 : initiator.asl {
+        beliefs: services_needed([bebidas, ceramica, madeira, ferragem])
+    }
+    agent visitor175 : initiator.asl {
+        beliefs: services_needed([madeira, queijo, ferragem, ceramica, bebidas])
+    }
+    agent visitor176 : initiator.asl {
+        beliefs: services_needed([madeira, ceramica, bebidas, queijo, ferragem])
+    }
+    agent visitor177 : initiator.asl {
+        beliefs: services_needed([ferragem, bebidas, queijo, ceramica])
+    }
+    agent visitor178 : initiator.asl {
+        beliefs: services_needed([ceramica, bebidas, queijo, ferragem, madeira])
+    }
+    agent visitor179 : initiator.asl {
+        beliefs: services_needed([ceramica, madeira, bebidas, queijo, ferragem])
+    }
+    agent visitor180 : initiator.asl {
+        beliefs: services_needed([madeira, ceramica, bebidas, queijo, ferragem])
+    }
+    agent visitor181 : initiator.asl {
+        beliefs: services_needed([bebidas, ferragem, queijo, ceramica, madeira])
+    }
+    agent visitor182 : initiator.asl {
+        beliefs: services_needed([queijo, ferragem, madeira, bebidas, ceramica])
+    }
+    agent visitor183 : initiator.asl {
+        beliefs: services_needed([bebidas, ferragem, queijo, ceramica, madeira])
+    }
+    agent visitor184 : initiator.asl {
+        beliefs: services_needed([ceramica, queijo, madeira, bebidas])
+    }
+    agent visitor185 : initiator.asl {
+        beliefs: services_needed([queijo, bebidas, madeira, ferragem, ceramica])
+    }
+    agent visitor186 : initiator.asl {
+        beliefs: services_needed([bebidas, ferragem, queijo])
+    }
+    agent visitor187 : initiator.asl {
+        beliefs: services_needed([ceramica, bebidas, queijo, madeira, ferragem])
+    }
+    agent visitor188 : initiator.asl {
+        beliefs: services_needed([queijo, bebidas, ferragem])
+    }
+    agent visitor189 : initiator.asl {
+        beliefs: services_needed([madeira, queijo])
+    }
+    agent visitor190 : initiator.asl {
+        beliefs: services_needed([madeira, ferragem, queijo, bebidas, ceramica])
+    }
+    agent visitor191 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, ferragem, queijo, ceramica])
+    }
+    agent visitor192 : initiator.asl {
+        beliefs: services_needed([ferragem, madeira, bebidas, queijo, ceramica])
+    }
+    agent visitor193 : initiator.asl {
+        beliefs: services_needed([ceramica, queijo, madeira])
+    }
+    agent visitor194 : initiator.asl {
+        beliefs: services_needed([madeira, bebidas, queijo, ceramica, ferragem])
+    }
+    agent visitor195 : initiator.asl {
+        beliefs: services_needed([queijo, ferragem, madeira, bebidas])
+    }
+    agent visitor196 : initiator.asl {
+        beliefs: services_needed([ceramica])
+    }
+    agent visitor197 : initiator.asl {
+        beliefs: services_needed([ferragem, ceramica])
+    }
+    agent visitor198 : initiator.asl {
+        beliefs: services_needed([queijo, bebidas, madeira, ferragem, ceramica])
+    }
+    agent visitor199 : initiator.asl {
+        beliefs: services_needed([madeira, ferragem, bebidas])
+    }
+
+    agent artisan1 : participant.asl {
+        beliefs: services_offered(queijo)
+                 strategy(load)
+                 base_price(375)
+                 capacity(6)
+    }
+    agent artisan2 : participant.asl {
+        beliefs: services_offered(queijo)
+                 strategy(random)
+                 base_price(360)
+                 capacity(6)
+    }
+    agent artisan3 : participant.asl {
+        beliefs: services_offered(queijo)
+                 strategy(fixed)
+                 base_price(145)
+                 capacity(4)
+    }
+    agent artisan4 : participant.asl {
+        beliefs: services_offered(queijo)
+                 strategy(load)
+                 base_price(317)
+                 capacity(9)
+    }
+    agent artisan5 : participant.asl {
+        beliefs: services_offered(queijo)
+                 strategy(random)
+                 base_price(569)
+                 capacity(10)
+    }
+    agent artisan6 : participant.asl {
+        beliefs: services_offered(queijo)
+                 strategy(fixed)
+                 base_price(368)
+                 capacity(8)
+    }
+    agent artisan7 : participant.asl {
+        beliefs: services_offered(queijo)
+                 strategy(load)
+                 base_price(349)
+                 capacity(4)
+    }
+    agent artisan8 : participant.asl {
+        beliefs: services_offered(queijo)
+                 strategy(random)
+                 base_price(446)
+                 capacity(7)
+    }
+    agent artisan9 : participant.asl {
+        beliefs: services_offered(queijo)
+                 strategy(fixed)
+                 base_price(228)
+                 capacity(5)
+    }
+    agent artisan10 : participant.asl {
+        beliefs: services_offered(queijo)
+                 strategy(load)
+                 base_price(321)
+                 capacity(3)
+    }
+    agent artisan11 : participant.asl {
+        beliefs: services_offered(bebidas)
+                 strategy(random)
+                 base_price(325)
+                 capacity(8)
+    }
+    agent artisan12 : participant.asl {
+        beliefs: services_offered(bebidas)
+                 strategy(fixed)
+                 base_price(331)
+                 capacity(9)
+    }
+    agent artisan13 : participant.asl {
+        beliefs: services_offered(bebidas)
+                 strategy(load)
+                 base_price(156)
+                 capacity(6)
+    }
+    agent artisan14 : participant.asl {
+        beliefs: services_offered(bebidas)
+                 strategy(random)
+                 base_price(519)
+                 capacity(7)
+    }
+    agent artisan15 : participant.asl {
+        beliefs: services_offered(bebidas)
+                 strategy(fixed)
+                 base_price(362)
+                 capacity(5)
+    }
+    agent artisan16 : participant.asl {
+        beliefs: services_offered(bebidas)
+                 strategy(load)
+                 base_price(153)
+                 capacity(9)
+    }
+    agent artisan17 : participant.asl {
+        beliefs: services_offered(bebidas)
+                 strategy(random)
+                 base_price(392)
+                 capacity(9)
+    }
+    agent artisan18 : participant.asl {
+        beliefs: services_offered(bebidas)
+                 strategy(fixed)
+                 base_price(232)
+                 capacity(4)
+    }
+    agent artisan19 : participant.asl {
+        beliefs: services_offered(bebidas)
+                 strategy(load)
+                 base_price(365)
+                 capacity(8)
+    }
+    agent artisan20 : participant.asl {
+        beliefs: services_offered(bebidas)
+                 strategy(random)
+                 base_price(258)
+                 capacity(4)
+    }
+    agent artisan21 : participant.asl {
+        beliefs: services_offered(madeira)
+                 strategy(fixed)
+                 base_price(419)
+                 capacity(2)
+    }
+    agent artisan22 : participant.asl {
+        beliefs: services_offered(madeira)
+                 strategy(load)
+                 base_price(189)
+                 capacity(7)
+    }
+    agent artisan23 : participant.asl {
+        beliefs: services_offered(madeira)
+                 strategy(random)
+                 base_price(279)
+                 capacity(2)
+    }
+    agent artisan24 : participant.asl {
+        beliefs: services_offered(madeira)
+                 strategy(fixed)
+                 base_price(435)
+                 capacity(8)
+    }
+    agent artisan25 : participant.asl {
+        beliefs: services_offered(madeira)
+                 strategy(load)
+                 base_price(135)
+                 capacity(3)
+    }
+    agent artisan26 : participant.asl {
+        beliefs: services_offered(madeira)
+                 strategy(random)
+                 base_price(521)
+                 capacity(6)
+    }
+    agent artisan27 : participant.asl {
+        beliefs: services_offered(madeira)
+                 strategy(fixed)
+                 base_price(395)
+                 capacity(9)
+    }
+    agent artisan28 : participant.asl {
+        beliefs: services_offered(madeira)
+                 strategy(load)
+                 base_price(201)
+                 capacity(7)
+    }
+    agent artisan29 : participant.asl {
+        beliefs: services_offered(madeira)
+                 strategy(random)
+                 base_price(558)
+                 capacity(2)
+    }
+    agent artisan30 : participant.asl {
+        beliefs: services_offered(madeira)
+                 strategy(fixed)
+                 base_price(210)
+                 capacity(7)
+    }
+    agent artisan31 : participant.asl {
+        beliefs: services_offered(ferragem)
+                 strategy(load)
+                 base_price(478)
+                 capacity(8)
+    }
+    agent artisan32 : participant.asl {
+        beliefs: services_offered(ferragem)
+                 strategy(random)
+                 base_price(278)
+                 capacity(10)
+    }
+    agent artisan33 : participant.asl {
+        beliefs: services_offered(ferragem)
+                 strategy(fixed)
+                 base_price(322)
+                 capacity(4)
+    }
+    agent artisan34 : participant.asl {
+        beliefs: services_offered(ferragem)
+                 strategy(load)
+                 base_price(386)
+                 capacity(9)
+    }
+    agent artisan35 : participant.asl {
+        beliefs: services_offered(ferragem)
+                 strategy(random)
+                 base_price(243)
+                 capacity(8)
+    }
+    agent artisan36 : participant.asl {
+        beliefs: services_offered(ferragem)
+                 strategy(fixed)
+                 base_price(459)
+                 capacity(4)
+    }
+    agent artisan37 : participant.asl {
+        beliefs: services_offered(ferragem)
+                 strategy(load)
+                 base_price(349)
+                 capacity(9)
+    }
+    agent artisan38 : participant.asl {
+        beliefs: services_offered(ferragem)
+                 strategy(random)
+                 base_price(367)
+                 capacity(5)
+    }
+    agent artisan39 : participant.asl {
+        beliefs: services_offered(ferragem)
+                 strategy(fixed)
+                 base_price(289)
+                 capacity(4)
+    }
+    agent artisan40 : participant.asl {
+        beliefs: services_offered(ferragem)
+                 strategy(load)
+                 base_price(195)
+                 capacity(8)
+    }
+    agent artisan41 : participant.asl {
+        beliefs: services_offered(ceramica)
+                 strategy(random)
+                 base_price(300)
+                 capacity(4)
+    }
+    agent artisan42 : participant.asl {
+        beliefs: services_offered(ceramica)
+                 strategy(fixed)
+                 base_price(300)
+                 capacity(4)
+    }
+    agent artisan43 : participant.asl {
+        beliefs: services_offered(ceramica)
+                 strategy(load)
+                 base_price(507)
+                 capacity(10)
+    }
+    agent artisan44 : participant.asl {
+        beliefs: services_offered(ceramica)
+                 strategy(random)
+                 base_price(437)
+                 capacity(5)
+    }
+    agent artisan45 : participant.asl {
+        beliefs: services_offered(ceramica)
+                 strategy(fixed)
+                 base_price(536)
+                 capacity(3)
+    }
+    agent artisan46 : participant.asl {
+        beliefs: services_offered(ceramica)
+                 strategy(load)
+                 base_price(416)
+                 capacity(3)
+    }
+    agent artisan47 : participant.asl {
+        beliefs: services_offered(ceramica)
+                 strategy(random)
+                 base_price(570)
+                 capacity(9)
+    }
+    agent artisan48 : participant.asl {
+        beliefs: services_offered(ceramica)
+                 strategy(fixed)
+                 base_price(307)
+                 capacity(2)
+    }
+    agent artisan49 : participant.asl {
+        beliefs: services_offered(ceramica)
+                 strategy(load)
+                 base_price(536)
+                 capacity(8)
+    }
+
+}

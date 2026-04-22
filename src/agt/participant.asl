@@ -1,7 +1,5 @@
 active_tasks(0).
 
-!start.
-
 +!start : services_offered(S) <-
     .df_register(S);
     .print("Estande aberto! Artesanato oferecido: ", S).
