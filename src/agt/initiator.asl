@@ -11,10 +11,10 @@ cnp_timeout(5000).
     .my_name(Me);
     .print("Buscando artesãos para: ", Service);
     .df_search(Service, Participants);
-    .print("Artesãos encontrados para ", Service, ": ", Participants);
     if (Participants == []) {
         .print("Nenhum artesão para ", Service);
     } else {
+        .print("Artesãos encontrados para ", Service, ": ", Participants);
         .send(Participants, tell, cfp(Service, Me));
         ?cnp_timeout(Timeout);
         .wait(Timeout);
